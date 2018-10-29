@@ -8,7 +8,7 @@
 LOA-0 includes only one *joint : segment* pair, as follows:
 
 ```
-[LOA-0] humanoid_root : sacrum
+**[LOA-0]** humanoid_root : sacrum
 ```
 
 ---
@@ -17,10 +17,10 @@ LOA-0 includes only one *joint : segment* pair, as follows:
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
 
 ```
-[LOA-0] humanoid_root : sacrum
-  [LOA-1] sacroiliac : pelvis
-  | [LOA-1] l_hip : l_thigh
-  | | [LOA-1] l_knee : l_calf
+**[LOA-0]** humanoid_root : sacrum
+  **[LOA-1]** sacroiliac : pelvis
+  | **[LOA-1]** l_hip : l_thigh
+  | | **[LOA-1]** l_knee : l_calf
   | |   l_talocrural : l_hindfoot
   | |     l_metatarsophalangeal : l_middistal
   | r_hip : r_thigh
@@ -45,10 +45,10 @@ LOA-0 includes only one *joint : segment* pair, as follows:
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy2
 
 ```
-[LOA-0] humanoid_root : sacrum
-  [LOA-1] sacroiliac : pelvis
-  | [LOA-1] l_hip : l_thigh
-  | | [LOA-1] l_knee : l_calf
+**[LOA-0]** humanoid_root : sacrum
+  **[LOA-1]** sacroiliac : pelvis
+  | **[LOA-1]** l_hip : l_thigh
+  | | **[LOA-1]** l_knee : l_calf
   | |   l_talocrural : l_talus
   | |     l_tarsometatarsal : l_metatarsal
   | |       l_metatarsophalangeal : l_tarsal_proximal_phalanx
@@ -128,10 +128,10 @@ LOA-0 includes only one *joint : segment* pair, as follows:
 The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figure 4.12 with the segment names listed after the joints to which they are attached.
 
 ```
-[LOA-0] humanoid_root : sacrum
-  [LOA-1] sacroiliac : pelvis
-  | [LOA-1] l_hip : l_thigh
-  | | [LOA-1] l_knee : l_calf
+**[LOA-0]** humanoid_root : sacrum
+  **[LOA-1]** sacroiliac : pelvis
+  | **[LOA-1]** l_hip : l_thigh
+  | | **[LOA-1]** l_knee : l_calf
   | |   l_talocrural : l_talus
   | |     l_tarsometatarsal : l_metatarsal
   | |       l_metatarsophalangeal : l_tarsal_proximal_phalanx
@@ -232,10 +232,10 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy4
 
 ```
-[LOA-0] humanoid_root : sacrum
-  [LOA-1] sacroiliac : pelvis
-  | [LOA-1] l_hip : l_thigh
-  | | [LOA-1] l_knee : l_calf
+**[LOA-0]** humanoid_root : sacrum
+  **[LOA-1]** sacroiliac : pelvis
+  | **[LOA-1]** l_hip : l_thigh
+  | | **[LOA-1]** l_knee : l_calf
   | |   l_talocrural : l_talus(l_hindfoot)
   | |     l_talocalcaneonavicular : l_navicular
   | |     | l_cuneonavicular_1 : l_cuneiform_1
