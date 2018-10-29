@@ -8,7 +8,7 @@
 LOA-0 includes only one *joint : segment* pair, as follows:
 
 ```
-humanoid_root : sacrum
+[LOA-0] humanoid_root : sacrum
 ```
 
 ---
@@ -17,7 +17,7 @@ humanoid_root : sacrum
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
 
 ```
-humanoid_root : sacrum
+[LOA-0] humanoid_root : sacrum
   sacroiliac : pelvis
   | l_hip : l_thigh
   | | l_knee : l_calf
@@ -45,7 +45,7 @@ humanoid_root : sacrum
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy2
 
 ```
-humanoid_root : sacrum
+[LOA-0] humanoid_root : sacrum
   sacroiliac : pelvis
   | l_hip : l_thigh
   | | l_knee : l_calf
@@ -128,7 +128,7 @@ humanoid_root : sacrum
 The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figure 4.12 with the segment names listed after the joints to which they are attached.
 
 ```
-humanoid_root : sacrum
+[LOA-0] humanoid_root : sacrum
   sacroiliac : pelvis
   | l_hip : l_thigh
   | | l_knee : l_calf
@@ -232,7 +232,7 @@ humanoid_root : sacrum
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy4
 
 ```
-humanoid_root : sacrum
+[LOA-0] humanoid_root : sacrum
   sacroiliac : pelvis
   | l_hip : l_thigh
   | | l_knee : l_calf
