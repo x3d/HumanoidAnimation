@@ -26,7 +26,7 @@ LOA-0 includes only one *joint : segment* pair, as follows:
   | [LOA-1] r_hip : r_thigh
   |   [LOA-1] r_knee : r_calf
   |     [LOA-1] r_talocrural : r_hindfoot
-  |       [LOA-1 ]r_metatarsophalangeal : r_middistal
+  |       [LOA-1] r_metatarsophalangeal : r_middistal
   vl5 : l5
     skullbase : skull
     l_shoulder : l_upperarm
