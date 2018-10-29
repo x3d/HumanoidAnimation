@@ -7,9 +7,7 @@
 
 LOA-0 includes only one *joint : segment* pair, as follows:
 
-```
         **[LOA-0]** humanoid_root : sacrum
-```
 
 ---
 
