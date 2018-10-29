@@ -7,18 +7,22 @@
 
 LOA-0 includes only one *joint : segment* pair, as follows:
 
-        **[LOA-0]** humanoid_root : sacrum
+**[LOA-0]** humanoid_root : sacrum
 
 ---
 
 ## 4.9.6.1 LOA-1 hierarchy 
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
 
-```
 **[LOA-0]** humanoid_root : sacrum
+
   **[LOA-1]** sacroiliac : pelvis
+  
   | **[LOA-1]** l_hip : l_thigh
+  
   | | **[LOA-1]** l_knee : l_calf
+  
+```
   | |   l_talocrural : l_hindfoot
   | |     l_metatarsophalangeal : l_middistal
   | r_hip : r_thigh
