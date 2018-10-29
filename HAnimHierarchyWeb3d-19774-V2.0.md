@@ -5,7 +5,7 @@
 
 ## LOA-0 hierarchy
 
-LOA-0 includes only one joint : segment pair pair, as follows:
+LOA-0 includes only one *joint : segment* pair, as follows:
 
 ```
 humanoid_root : sacrum
