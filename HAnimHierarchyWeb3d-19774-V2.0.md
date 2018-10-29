@@ -1,7 +1,13 @@
+# 4.9.6 Hierarchy
+* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy
+
+---
+
+===
+
 ```
-4.9.6 Hierarchy
-http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy
 =========================================================================================
+## LOA-0 hierarchy
 
 LOA-0 includes only one joint : segment pair pair, as follows:
 
