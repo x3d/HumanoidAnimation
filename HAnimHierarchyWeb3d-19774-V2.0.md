@@ -18,9 +18,9 @@ LOA-0 includes only one *joint : segment* pair, as follows:
 
 ```
 [LOA-0] humanoid_root : sacrum
-  sacroiliac : pelvis
-  | l_hip : l_thigh
-  | | l_knee : l_calf
+  [LOA-1] sacroiliac : pelvis
+  | [LOA-1] l_hip : l_thigh
+  | | [LOA-1] l_knee : l_calf
   | |   l_talocrural : l_hindfoot
   | |     l_metatarsophalangeal : l_middistal
   | r_hip : r_thigh
@@ -46,9 +46,9 @@ LOA-0 includes only one *joint : segment* pair, as follows:
 
 ```
 [LOA-0] humanoid_root : sacrum
-  sacroiliac : pelvis
-  | l_hip : l_thigh
-  | | l_knee : l_calf
+  [LOA-1] sacroiliac : pelvis
+  | [LOA-1] l_hip : l_thigh
+  | | [LOA-1] l_knee : l_calf
   | |   l_talocrural : l_talus
   | |     l_tarsometatarsal : l_metatarsal
   | |       l_metatarsophalangeal : l_tarsal_proximal_phalanx
@@ -129,9 +129,9 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
 
 ```
 [LOA-0] humanoid_root : sacrum
-  sacroiliac : pelvis
-  | l_hip : l_thigh
-  | | l_knee : l_calf
+  [LOA-1] sacroiliac : pelvis
+  | [LOA-1] l_hip : l_thigh
+  | | [LOA-1] l_knee : l_calf
   | |   l_talocrural : l_talus
   | |     l_tarsometatarsal : l_metatarsal
   | |       l_metatarsophalangeal : l_tarsal_proximal_phalanx
@@ -233,9 +233,9 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
 
 ```
 [LOA-0] humanoid_root : sacrum
-  sacroiliac : pelvis
-  | l_hip : l_thigh
-  | | l_knee : l_calf
+  [LOA-1] sacroiliac : pelvis
+  | [LOA-1] l_hip : l_thigh
+  | | [LOA-1] l_knee : l_calf
   | |   l_talocrural : l_talus(l_hindfoot)
   | |     l_talocalcaneonavicular : l_navicular
   | |     | l_cuneonavicular_1 : l_cuneiform_1
