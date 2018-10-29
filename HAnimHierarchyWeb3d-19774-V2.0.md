@@ -5,15 +5,18 @@
 
 ## LOA-0 hierarchy
 
+```
 LOA-0 includes only one joint : segment pair pair, as follows:
 
 humanoid_root : sacrum
+```
 
 ---
 
 ## 4.9.6.1 LOA-1 hierarchy 
-http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
+* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
 
+```
 humanoid_root : sacrum
   sacroiliac : pelvis
   | l_hip : l_thigh
@@ -32,14 +35,16 @@ humanoid_root : sacrum
     r_shoulder : r_upperarm
       r_elbow : r_forearm
         r_radiocarpal : r_hand
+```
 
-Figure 4.10 — Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
+### Figure 4.10 — Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
 
 ---
 
 ## 4.9.6.2 LOA-2 hierarchy
-http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy2
+* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy2
 
+```
 humanoid_root : sacrum
   sacroiliac : pelvis
   | l_hip : l_thigh
@@ -111,16 +116,18 @@ humanoid_root : sacrum
                           r_metacarpophalangeal_5 : r_carpal_proximal_phalanx_5
                             r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                               r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
+```
 
-Figure 4.11 — Basic set of Joint:Segment hierarchy for LOA-2
+### Figure 4.11 — Basic set of Joint:Segment hierarchy for LOA-2
 
 ---
 
 ## 4.9.6.3 LOA-3 hierarchy
-http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy3
+* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy3
 
 The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figure 4.12 with the segment names listed after the joints to which they are attached.
 
+```
 humanoid_root : sacrum
   sacroiliac : pelvis
   | l_hip : l_thigh
@@ -215,14 +222,16 @@ humanoid_root : sacrum
                                                 r_metacarpophalangeal_5 : r_carpal_proximal_phalanx_5
                                                   r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                                                     r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
+```
 
-Figure 4.12 — Basic set of Joint:Segment hierarchy for LOA-3
+### Figure 4.12 — Basic set of Joint:Segment hierarchy for LOA-3
 
 ---
 
 ## 4.9.6.4 LOA-4 hierarchy
-http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy4
+* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy4
 
+```
 humanoid_root : sacrum
   sacroiliac : pelvis
   | l_hip : l_thigh
@@ -369,9 +378,9 @@ humanoid_root : sacrum
                                                  r_metacarpophalangeal_5 : r_carpal_proximal_phalanx_5
                                                    r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                                                      r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
-
-Figure 4.13 — Basic set of Joint:Segment hierarchy for LOA-4
 ```
+
+### Figure 4.13 — Basic set of Joint:Segment hierarchy for LOA-4
 
 ---
 
