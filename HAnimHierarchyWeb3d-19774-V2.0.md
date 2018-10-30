@@ -21,12 +21,12 @@ LOA-0 includes only one *joint : segment* pair, as follows:
   [LOA-1] sacroiliac : pelvis
   | [LOA-1] l_hip : l_thigh
   | | [LOA-1] l_knee : l_calf
-  | |   [LOA-1] l_talocrural : l_hindfoot              *MISMATCH talus/hindfoot*
-  | |     [LOA-1] l_metatarsophalangeal : l_middistal  *MISMATCH middistal/tarsal_proximal_phalanx*
+  | |   [LOA-1] l_talocrural : l_hindfoot                               *MISMATCH talus/hindfoot*
+  | |     [LOA-1] l_metatarsophalangeal : l_middistal                   *MISMATCH middistal/tarsal_proximal_phalanx*
   | [LOA-1] r_hip : r_thigh
   |   [LOA-1] r_knee : r_calf
-  |     [LOA-1] r_talocrural : r_hindfoot              *MISMATCH talus/hindfoot*
-  |       [LOA-1] r_metatarsophalangeal : r_middistal  *MISMATCH middistal/tarsal_proximal_phalanx*
+  |     [LOA-1] r_talocrural : r_hindfoot                               *MISMATCH talus/hindfoot*
+  |       [LOA-1] r_metatarsophalangeal : r_middistal                   *MISMATCH middistal/tarsal_proximal_phalanx*
   vl5 : l5
     skullbase : skull
     l_shoulder : l_upperarm
@@ -49,15 +49,15 @@ LOA-0 includes only one *joint : segment* pair, as follows:
   [LOA-1] sacroiliac : pelvis
   | [LOA-1] l_hip : l_thigh
   | | [LOA-1] l_knee : l_calf
-  | |   [LOA-1] l_talocrural : l_talus                         *MISMATCH talus/hindfoot*
+  | |   [LOA-1] l_talocrural : l_talus                                 *MISMATCH talus/hindfoot*
   | |     [LOA-2] l_tarsometatarsal : l_metatarsal
-  | |       l_metatarsophalangeal : l_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
+  | |       [LOA-1] l_metatarsophalangeal : l_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   | |         l_tarsal_interphalangeal : l_tarsal_distal_phalanx
   | [LOA-1] r_hip : r_thigh
   |   [LOA-1] r_knee : r_calf
-  |     [LOA-1] r_talocrural : r_talus                         *MISMATCH talus/hindfoot*
+  |     [LOA-1] r_talocrural : r_talus                                 *MISMATCH talus/hindfoot*
   |       r_tarsometatarsal : r_metatarsal
-  |         r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
+  |         [LOA-1] r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   |           r_tarsal_interphalangeal : r_tarsal_distal_phalanx
   vl5 : l5
     vl3 : l3
@@ -132,15 +132,15 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   [LOA-1] sacroiliac : pelvis
   | [LOA-1] l_hip : l_thigh
   | | [LOA-1] l_knee : l_calf
-  | |   [LOA-1] l_talocrural : l_talus                         *MISMATCH talus/hindfoot*
+  | |   [LOA-1] l_talocrural : l_talus                                 *MISMATCH talus/hindfoot*
   | |     [LOA-2] l_tarsometatarsal : l_metatarsal
-  | |       l_metatarsophalangeal : l_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
+  | |       [LOA-1] l_metatarsophalangeal : l_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   | |         l_tarsal_interphalangeal : l_tarsal_distal_phalanx
   | [LOA-1] r_hip : r_thigh
   |   [LOA-1] r_knee : r_calf
-  |     [LOA-1] r_talocrural : r_talus                         *MISMATCH talus/hindfoot*
+  |     [LOA-1] r_talocrural : r_talus                                 *MISMATCH talus/hindfoot*
   |       r_tarsometatarsal : r_metatarsal
-  |         r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
+  |         [LOA-1] r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   |           r_tarsal_interphangeal : r_tarsal_distal_phalanx
   vl5 : l5
     vl4 : l4
