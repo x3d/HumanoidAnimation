@@ -3,14 +3,15 @@
 
 Review notes
 
-# These tables are copied from the HAnim specification
-# The specification does not call out LOA-0
+* These tables are copied from the HAnim specification
+* The specification does not call out LOA-0
+* '''*MISMATCH*''' indicates inconsistent segment names
 
 ---
 
 ## LOA-0 hierarchy
 
-LOA-0 includes only one *joint : segment* pair, as follows:
+LOA-0 includes only one named *joint : segment* pair, as follows:
 
 ```
 [LOA-0] humanoid_root : sacrum
