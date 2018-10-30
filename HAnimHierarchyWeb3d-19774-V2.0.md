@@ -1,6 +1,11 @@
 # 4.9.6 Hierarchy
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy
 
+Review notes
+
+# These tables are copied from the HAnim specification
+# The specification does not call out LOA-0
+
 ---
 
 ## LOA-0 hierarchy
