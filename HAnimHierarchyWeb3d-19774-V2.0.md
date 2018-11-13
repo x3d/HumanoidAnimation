@@ -83,7 +83,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
               |       [LOA-1] l_radiocarpal : l_carpal                *MISMATCH hand/carpal*
               |         [LOA-2] l_carpometacarpal_1 : l_metacarpal_1
               |         | [LOA-2] l_metacarpophalangeal_1 : l_carpal_proximal_phalanx_1
-              |         |   l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
+              |         |   [LOA-2] l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
               |         [LOA-2] l_carpometacarpal_2 : l_metacarpal_2
               |         | [LOA-2] l_metacarpophalangeal_2 : l_carpal_proximal_phalanx_2
               |         |   l_carpal_proximal_interphalangeal_2 : l_carpal_middle_phalanx_2
@@ -107,7 +107,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
                       [LOA-1] r_radiocarpal : r_carpal                               *MISMATCH hand/carpal*
                         [LOA-2] r_carpometacarpal_1 : r_metacarpal_1
                         | [LOA-2] r_metacarpophalangeal_1 : r_carpal_proximal_phalanx_1
-                        |   r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
+                        |   [LOA-2] r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
                         [LOA-2] r_carpometacarpal_2 : r_metacarpal_2
                         | [LOA-2] r_metacarpophalangeal_2 : r_carpal_proximal_phalanx_2
                         |   r_carpal_proximal_interphalangeal_2 : r_carpal_middle_phalanx_2
@@ -189,7 +189,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                     |       [LOA-1] l_radiocarpal : l_carpal      *MISMATCH hand/carpal*
                                     |         [LOA-2] l_carpometacarpal_1 : l_metacarpal_1
                                     |         | [LOA-2] l_metacarpophalangeal_1 : l_carpal_proximal_phalanx_1
-                                    |         |   l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
+                                    |         |   [LOA-2] l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
                                     |         [LOA-2] l_carpometacarpal_2 : l_metacarpal_2
                                     |         | [LOA-2] l_metacarpophalangeal_2 : l_carpal_proximal_phalanx_2
                                     |         |   l_carpal_proximal_interphalangeal_2 : l_carpal_middle_phalanx_2
@@ -213,7 +213,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                             [LOA-1] r_radiocarpal : r_carpal                               *MISMATCH hand/carpal*
                                               [LOA-2] r_carpometacarpal_1 : r_metacarpal_1
                                               | [LOA-2] r_metacarpophalangeal_1 : r_carpal_proximal_phalanx_1
-                                              |   r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
+                                              |   [LOA-2] r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
                                               [LOA-2] r_carpometacarpal_2 : r_metacarpal_2
                                               | [LOA-2] r_metacarpophalangeal_2 : r_carpal_proximal_phalanx_2
                                               |   r_carpal_proximal_interphalangeal_2 : r_carpal_middle_phalanx_2
@@ -338,7 +338,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                    |         l_midcarpal_1 : l_trapezium
                                    |         | [LOA-2] l_carpometacarpal_1 : l_metacarpal_1
                                    |         |   [LOA-2] l_metacarpophalangeal_1 : l_carpal_proximal_phalanx_1
-                                   |         |     l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
+                                   |         |     [LOA-2] l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
                                    |         l_midcarpal_2 : l_trapezoid
                                    |         | [LOA-2] l_carpometacarpal_2 : l_metacarpal_2
                                    |         |   [LOA-2] l_metacarpophalangeal_2 : l_carpal_proximal_phalanx_2 
@@ -366,7 +366,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                              r_midcarpal_1 : r_trapezium
                                              | [LOA-2] r_carpometacarpal_1 : r_metacarpal_1
                                              |   [LOA-2] r_metacarpophalangeal_1 : r_carpal_proximal_phalanx_1
-                                             |     r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
+                                             |     [LOA-2] r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
                                              r_midcarpal_2 : l_trapezoid
                                              | [LOA-2] r_carpometacarpal_2 : r_metacarpal_2
                                              |   [LOA-2] r_metacarpophalangeal_2 : r_carpal_proximal_phalanx_2 
