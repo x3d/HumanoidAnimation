@@ -151,23 +151,23 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   |         [LOA-1] r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   |           [LOA-2] r_tarsal_interphalangeal : r_tarsal_distal_phalanx  *TYPO mispelled*
   [LOA-1] vl5 : l5
-    vl4 : l4
+    [LOA-3] vl4 : l4
       [LOA-2] vl3 : l3
-        vl2 : l2
+        [LOA-3] vl2 : l2
           [LOA-2] vl1 : l1
-            vt12 : t12
-              vt11 : t11
+            [LOA-3] vt12 : t12
+              [LOA-3] vt11 : t11
                 [LOA-2] vt10 : t10
-                  vt9 : t9
-                    vt8 : t8
-                      vt7 : t7
+                  [LOA-3] vt9 : t9
+                    [LOA-3] vt8 : t8
+                      [LOA-3] vt7 : t7
                         [LOA-2] vt6 : t6
-                          vt5 : t5
-                            vt4 : t4
-                              vt3 : t3
-                                vt2 : t2
+                          [LOA-3] vt5 : t5
+                            [LOA-3] vt4 : t4
+                              [LOA-3] vt3 : t3
+                                [LOA-3] vt2 : t2
                                   [LOA-2] vt1 : t1
-                                    vc7 : c7
+                                    [LOA-3] vc7 : c7
                                     | vc6 : c6
                                     |   vc5 : c5
                                     |     [LOA-2] vc4 : c4
@@ -299,23 +299,23 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   |               r_tarsal_proximal_interphalangeal_5 : r_tarsal_middle_phalanx_5
   |                 r_tarsal_distal_interphalangeal_5 : r_tarsal_distal_phalanx_5
   [LOA-1] vl5 : l5
-   vl4 : l4
+   [LOA-3] vl4 : l4
      [LOA-2] vl3 : l3
-       vl2 : l2
+       [LOA-3] vl2 : l2
          [LOA-2] vl1 : l1
-           vt12 : t12
-             vt11 : t11
+           [LOA-3] vt12 : t12
+             [LOA-3] vt11 : t11
                [LOA-2] vt10 : t10
-                 vt9 : t9
-                   vt8 : t8
-                     vt7 : t7
+                 [LOA-3] vt9 : t9
+                   [LOA-3] vt8 : t8
+                     [LOA-3] vt7 : t7
                        [LOA-2] vt6 : t6
-                         vt5 : t5
-                           vt4 : t4
-                             vt3 : t3
-                               vt2 : t2
+                         [LOA-3] vt5 : t5
+                           [LOA-3] vt4 : t4
+                             [LOA-3] vt3 : t3
+                               [LOA-3] vt2 : t2
                                  [LOA-2] vt1 : t1
-                                   vc7 : c7
+                                   [LOA-3] vc7 : c7
                                    |  vc6 : c6
                                    |   vc5 : c5
                                    |     [LOA-2] vc4 : c4
