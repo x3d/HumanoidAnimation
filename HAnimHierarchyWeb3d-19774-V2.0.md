@@ -45,7 +45,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
         [LOA-1] r_radiocarpal : r_hand                                  *MISMATCH hand/carpal*
 ```
 
-### Figure 4.10 â€” Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
+### Figure 4.10 — Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
 
 ---
 
@@ -126,7 +126,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
                               [LOA-2] r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 ```
 
-### Figure 4.11 â€” Basic set of Joint:Segment hierarchy for LOA-2
+### Figure 4.11 — Basic set of Joint:Segment hierarchy for LOA-2
 
 ---
 
@@ -232,7 +232,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                                     [LOA-2] r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 ```
 
-### Figure 4.12 â€” Basic set of Joint:Segment hierarchy for LOA-3
+### Figure 4.12 — Basic set of Joint:Segment hierarchy for LOA-3
 
 ---
 
@@ -388,7 +388,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                                      [LOA-2] r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 ```
 
-### Figure 4.13 â€” Basic set of Joint:Segment hierarchy for LOA-4
+### Figure 4.13 — Basic set of Joint:Segment hierarchy for LOA-4
 
 ---
 
