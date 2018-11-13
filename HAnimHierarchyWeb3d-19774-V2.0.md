@@ -1,4 +1,4 @@
-# Level Of Articulation (LOA) Comparison Tables
+# Comparison Tables for Level Of Articulation (LOA)
 
 ## 4.9.6 Hierarchy
 * http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy
