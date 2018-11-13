@@ -168,20 +168,20 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                 [LOA-3] vt2 : t2
                                   [LOA-2] vt1 : t1
                                     [LOA-3] vc7 : c7
-                                    | vc6 : c6
-                                    |   vc5 : c5
+                                    | [LOA-3] vc6 : c6
+                                    |   [LOA-3] vc5 : c5
                                     |     [LOA-2] vc4 : c4
-                                    |       vc3 : c3
+                                    |       [LOA-3] vc3 : c3
                                     |         [LOA-2] vc2 : c2
-                                    |           vc1 : c1
+                                    |           [LOA-3] vc1 : c1
                                     |             [LOA-1] skullbase : skull
-                                    |               l_eyelid_joint : l_eyelid
-                                    |               r_eyelid_joint : r_eyelid
-                                    |               l_eyeball_joint : l_eyeball
-                                    |               r_eyeball_joint : r_eyeball
-                                    |               l_eyebrow_joint : l_eyebrow
-                                    |               r_eyebrow_joint : r_eyebrow
-                                    |               temporomandibular : jaw
+                                    |               [LOA-3] l_eyelid_joint : l_eyelid
+                                    |               [LOA-3] r_eyelid_joint : r_eyelid
+                                    |               [LOA-3] l_eyeball_joint : l_eyeball
+                                    |               [LOA-3] r_eyeball_joint : r_eyeball
+                                    |               [LOA-3] l_eyebrow_joint : l_eyebrow
+                                    |               [LOA-3] r_eyebrow_joint : r_eyebrow
+                                    |               [LOA-3] temporomandibular : jaw
                                     [LOA-2] l_sternoclavicular : l_clavicle
                                     | [LOA-2] l_acromioclavicular : l_scapula
                                     |   [LOA-1] l_shoulder : l_upperarm
@@ -316,20 +316,20 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                [LOA-3] vt2 : t2
                                  [LOA-2] vt1 : t1
                                    [LOA-3] vc7 : c7
-                                   |  vc6 : c6
-                                   |   vc5 : c5
+                                   |  [LOA-3] vc6 : c6
+                                   |   [LOA-3] vc5 : c5
                                    |     [LOA-2] vc4 : c4
-                                   |       vc3 : c3
+                                   |       [LOA-3] vc3 : c3
                                    |         [LOA-2] vc2 : c2
-                                   |           vc1 : c1
+                                   |           [LOA-3] vc1 : c1
                                    |             [LOA-1] skullbase : skull
-                                   |               l_eyelid_joint : l_eyelid
-                                   |               r_eyelid_joint : r_eyelid
-                                   |               l_eyeball_joint : l_eyeball
-                                   |               r_eyeball_joint : r_eyeball
-                                   |               l_eyebrow_joint : l_eyebrow
-                                   |               r_eyebrow_joint : r_eyebrow
-                                   |               temporomandibular : jaw
+                                   |               [LOA-3] l_eyelid_joint : l_eyelid
+                                   |               [LOA-3] r_eyelid_joint : r_eyelid
+                                   |               [LOA-3] l_eyeball_joint : l_eyeball
+                                   |               [LOA-3] r_eyeball_joint : r_eyeball
+                                   |               [LOA-3] l_eyebrow_joint : l_eyebrow
+                                   |               [LOA-3] r_eyebrow_joint : r_eyebrow
+                                   |               [LOA-3] temporomandibular : jaw
                                    [LOA-2] l_sternoclavicular : l_clavicle
                                    | [LOA-2] l_acromioclavicular : l_scapula
                                    |   [LOA-1] l_shoulder : l_upperarm
