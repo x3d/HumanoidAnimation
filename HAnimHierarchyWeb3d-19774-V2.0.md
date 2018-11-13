@@ -68,13 +68,13 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
   |         [LOA-1] r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   |           [LOA-2] r_tarsal_interphalangeal : r_tarsal_distal_phalanx
   [LOA-1] vl5 : l5
-    vl3 : l3
-      vl1 : l1
-        vt10 : t10
-          vt6 : t6
-            vt1 : t1
-              vc4 : c4
-              |   vc2 : c2
+    [LOA-2] vl3 : l3
+      [LOA-2] vl1 : l1
+        [LOA-2] vt10 : t10
+          [LOA-2] vt6 : t6
+            [LOA-2] vt1 : t1
+              [LOA-2] vc4 : c4
+              |   [LOA-2] vc2 : c2
               |     [LOA-1] skullbase : skull
               l_sternoclavicular : l_clavicle
               | l_acromioclavicular : l_scapula
@@ -152,27 +152,27 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   |           [LOA-2] r_tarsal_interphalangeal : r_tarsal_distal_phalanx  *TYPO mispelled*
   [LOA-1] vl5 : l5
     vl4 : l4
-      vl3 : l3
+      [LOA-2] vl3 : l3
         vl2 : l2
-          vl1 : l1
+          [LOA-2] vl1 : l1
             vt12 : t12
               vt11 : t11
-                vt10 : t10
+                [LOA-2] vt10 : t10
                   vt9 : t9
                     vt8 : t8
                       vt7 : t7
-                        vt6 : t6
+                        [LOA-2] vt6 : t6
                           vt5 : t5
                             vt4 : t4
                               vt3 : t3
                                 vt2 : t2
-                                  vt1 : t1
+                                  [LOA-2] vt1 : t1
                                     vc7 : c7
                                     | vc6 : c6
                                     |   vc5 : c5
-                                    |     vc4 : c4
+                                    |     [LOA-2] vc4 : c4
                                     |       vc3 : c3
-                                    |         vc2 : c2
+                                    |         [LOA-2] vc2 : c2
                                     |           vc1 : c1
                                     |             [LOA-1] skullbase : skull
                                     |               l_eyelid_joint : l_eyelid
@@ -300,27 +300,27 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   |                 r_tarsal_distal_interphalangeal_5 : r_tarsal_distal_phalanx_5
   [LOA-1] vl5 : l5
    vl4 : l4
-     vl3 : l3
+     [LOA-2] vl3 : l3
        vl2 : l2
-         vl1 : l1
+         [LOA-2] vl1 : l1
            vt12 : t12
              vt11 : t11
-               vt10 : t10
+               [LOA-2] vt10 : t10
                  vt9 : t9
                    vt8 : t8
                      vt7 : t7
-                       vt6 : t6
+                       [LOA-2] vt6 : t6
                          vt5 : t5
                            vt4 : t4
                              vt3 : t3
                                vt2 : t2
-                                 vt1 : t1
+                                 [LOA-2] vt1 : t1
                                    vc7 : c7
                                    |  vc6 : c6
                                    |   vc5 : c5
-                                   |     vc4 : c4
+                                   |     [LOA-2] vc4 : c4
                                    |       vc3 : c3
-                                   |         vc2 : c2
+                                   |         [LOA-2] vc2 : c2
                                    |           vc1 : c1
                                    |             [LOA-1] skullbase : skull
                                    |               l_eyelid_joint : l_eyelid
