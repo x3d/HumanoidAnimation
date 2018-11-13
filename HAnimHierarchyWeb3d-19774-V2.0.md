@@ -60,13 +60,13 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
   | |   [LOA-1] l_talocrural : l_talus                                 *MISMATCH talus/hindfoot*
   | |     [LOA-2] l_tarsometatarsal : l_metatarsal
   | |       [LOA-1] l_metatarsophalangeal : l_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
-  | |         l_tarsal_interphalangeal : l_tarsal_distal_phalanx
+  | |         [LOA-2] l_tarsal_interphalangeal : l_tarsal_distal_phalanx
   | [LOA-1] r_hip : r_thigh
   |   [LOA-1] r_knee : r_calf
   |     [LOA-1] r_talocrural : r_talus                                 *MISMATCH talus/hindfoot*
   |       r_tarsometatarsal : r_metatarsal
   |         [LOA-1] r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
-  |           r_tarsal_interphalangeal : r_tarsal_distal_phalanx
+  |           [LOA-2] r_tarsal_interphalangeal : r_tarsal_distal_phalanx
   [LOA-1] vl5 : l5
     vl3 : l3
       vl1 : l1
@@ -143,13 +143,13 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   | |   [LOA-1] l_talocrural : l_talus                                 *MISMATCH talus/hindfoot*
   | |     [LOA-2] l_tarsometatarsal : l_metatarsal
   | |       [LOA-1] l_metatarsophalangeal : l_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
-  | |         l_tarsal_interphalangeal : l_tarsal_distal_phalanx
+  | |         [LOA-2] l_tarsal_interphalangeal : l_tarsal_distal_phalanx
   | [LOA-1] r_hip : r_thigh
   |   [LOA-1] r_knee : r_calf
   |     [LOA-1] r_talocrural : r_talus                                 *MISMATCH talus/hindfoot*
   |       r_tarsometatarsal : r_metatarsal
   |         [LOA-1] r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
-  |           r_tarsal_interphangeal : r_tarsal_distal_phalanx
+  |           [LOA-2] r_tarsal_interphalangeal : r_tarsal_distal_phalanx  *TYPO mispelled*
   [LOA-1] vl5 : l5
     vl4 : l4
       vl3 : l3
@@ -249,7 +249,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   | |     | l_cuneonavicular_1 : l_cuneiform_1
   | |     | | l_tarsometatarsal_1 : l_metatarsal_1
   | |     | |   l_metatarsophalangeal_1 : l_tarsal_proximal_phalanx_1
-  | |     | |     l_tarsal_interphalangeal_1 : l_tarsal_distal_phalanx_1
+  | |     | |     [LOA-2] l_tarsal_interphalangeal_1 : l_tarsal_distal_phalanx_1 *MISMATCH l_tarsal_interphalangeal (no _1)*
   | |     | l_cuneonavicular_2 : l_cuneiform_2
   | |     | | l_tarsometatarsal_2 : l_metatarsal_2
   | |     | |   l_metatarsophalangeal_2 : l_tarsal_proximal_phalanx_2
@@ -277,7 +277,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   |       | r_cuneonavicular_1 : r_cuneiform_1
   |       | | r_tarsometatarsal_1 : r_metatarsal_1
   |       | |   r_metatarsophalangeal_1 : r_tarsal_proximal_phalanx_1
-  |       | |     r_tarsal_interphalangeal_1 : r_tarsal_distal_phalanx_1
+  |       | |     [LOA-2] r_tarsal_interphalangeal_1 : r_tarsal_distal_phalanx_1  *MISMATCH r_tarsal_interphalangeal (not _1)*
   |       | r_cuneonavicular_2 : r_cuneiform_2
   |       | | r_tarsometatarsal_2 : r_metatarsal_2
   |       | |   r_metatarsophalangeal_2 : r_tarsal_proximal_phalanx_2
