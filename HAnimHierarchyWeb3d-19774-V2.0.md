@@ -253,23 +253,23 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   | |     | [LOA-4] l_cuneonavicular_2 : l_cuneiform_2
   | |     | | [LOA-4] l_tarsometatarsal_2 : l_metatarsal_2
   | |     | |   [LOA-4] l_metatarsophalangeal_2 : l_tarsal_proximal_phalanx_2
-  | |     | |     l_tarsal_proximal_interphalangeal_2 : l_tarsal_middle_phalanx_2
-  | |     | |       l_tarsal_distal_interphalangeal_2 : l_tarsal_distal_phalanx_2
+  | |     | |     [LOA-4] l_tarsal_proximal_interphalangeal_2 : l_tarsal_middle_phalanx_2
+  | |     | |       [LOA-4] l_tarsal_distal_interphalangeal_2 : l_tarsal_distal_phalanx_2
   | |     | [LOA-4] l_cuneonavicular_3 : l_cuneiform_3
   | |     |   [LOA-4] l_tarsometatarsal_3  : l_metatarsal_3
   | |     |     [LOA-4] l_metatarsophalangeal_3 : l_tarsal_proximal_phalanx_3
-  | |     |       l_tarsal_proximal_interphalangeal_3 : l_tarsal_middle_phalanx_3
-  | |     |         l_tarsal_distal_interphalangeal_3 : l_tarsal_distal_phalanx_3
-  | |     l_calcaneuscuboid : l_calcaneus
-  | |       l_transversetarsal : l_cuboid
+  | |     |       [LOA-4] l_tarsal_proximal_interphalangeal_3 : l_tarsal_middle_phalanx_3
+  | |     |         [LOA-4] l_tarsal_distal_interphalangeal_3 : l_tarsal_distal_phalanx_3
+  | |     [LOA-4] l_calcaneuscuboid : l_calcaneus
+  | |       [LOA-4] l_transversetarsal : l_cuboid
   | |         [LOA-4] l_tarsometatarsal_4 : l_metatarsal_4
   | |         | [LOA-4] l_metatarsophalangeal_4 : l_tarsal_proximal_phalanx_4
-  | |         |   l_tarsal_proximal_interphalangeal_4 : l_tarsal_middle_phalanx_4
-  | |         |     l_tarsal_distal_interphalangeal_4 : l_tarsal_distal_phalanx_4
+  | |         |   [LOA-4] l_tarsal_proximal_interphalangeal_4 : l_tarsal_middle_phalanx_4
+  | |         |     [LOA-4] l_tarsal_distal_interphalangeal_4 : l_tarsal_distal_phalanx_4
   | |         [LOA-4] l_tarsometatarsal_5 : l_metatarsal_5
   | |           [LOA-4] l_metatarsophalangeal_5 : l_tarsal_proximal_phalanx_5
-  | |             l_tarsal_proximal_interphalangeal_5 : l_tarsal_middle_phalanx_5
-  | |               l_tarsal_distal_interphalangeal_5 : l_tarsal_distal_phalanx_5
+  | |             [LOA-4] l_tarsal_proximal_interphalangeal_5 : l_tarsal_middle_phalanx_5
+  | |               [LOA-4] l_tarsal_distal_interphalangeal_5 : l_tarsal_distal_phalanx_5
   | [LOA-1] r_hip : r_thigh
   |   [LOA-1] r_knee : r_calf
   |     [LOA-1] r_talocrural : r_talus(l_hindfoot) *MISMATCH talus/hindfoot*
@@ -281,23 +281,23 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   |       | [LOA-4] r_cuneonavicular_2 : r_cuneiform_2
   |       | | [LOA-4] r_tarsometatarsal_2 : r_metatarsal_2
   |       | |   [LOA-4] r_metatarsophalangeal_2 : r_tarsal_proximal_phalanx_2
-  |       | |     r_tarsal_proximal_interphalangeal_2 : r_tarsal_middle_phalanx_2
-  |       | |       r_tarsal_distal_interphalangeal_2 : r_tarsal_distal_phalanx_2
+  |       | |     [LOA-4] r_tarsal_proximal_interphalangeal_2 : r_tarsal_middle_phalanx_2
+  |       | |       [LOA-4] r_tarsal_distal_interphalangeal_2 : r_tarsal_distal_phalanx_2
   |       | [LOA-4] r_cuneonavicular_3 : r_cuneiform_3
   |       |   [LOA-4] r_tarsometatarsal_3  : r_metatarsal_3
   |       |     [LOA-4] r_metatarsophalangeal_3 : r_tarsal_proximal_phalanx_3
-  |       |       r_tarsal_proximal_interphalangeal_3 : r_tarsal_middle_phalanx_3
-  |       |         r_tarsal_distal_interphalangeal_3 : r_tarsal_distal_phalanx_3
-  |       r_calcaneuscuboid : r_calcaneus
-  |         r_transversetarsal : r_cuboid
+  |       |       [LOA-4] r_tarsal_proximal_interphalangeal_3 : r_tarsal_middle_phalanx_3
+  |       |         [LOA-4] r_tarsal_distal_interphalangeal_3 : r_tarsal_distal_phalanx_3
+  |       [LOA-4] r_calcaneuscuboid : r_calcaneus
+  |         [LOA-4] r_transversetarsal : r_cuboid
   |           [LOA-4] r_tarsometatarsal_4 : r_metatarsal_4
   |           | [LOA-4] r_metatarsophalangeal_4 : r_tarsal_proximal_phalanx_4
-  |           |   r_tarsal_proximal_interphalangeal_4 : r_tarsal_middle_phalanx_4
-  |           |     r_tarsal_distal_interphalangeal_4 : r_tarsal_distal_phalanx_4
+  |           |   [LOA-4] r_tarsal_proximal_interphalangeal_4 : r_tarsal_middle_phalanx_4
+  |           |     [LOA-4] r_tarsal_distal_interphalangeal_4 : r_tarsal_distal_phalanx_4
   |           [LOA-4] r_tarsometatarsal_5 : r_metatarsal_5
   |             [LOA-4] r_metatarsophalangeal_5 : r_tarsal_proximal_phalanx_5
-  |               r_tarsal_proximal_interphalangeal_5 : r_tarsal_middle_phalanx_5
-  |                 r_tarsal_distal_interphalangeal_5 : r_tarsal_distal_phalanx_5
+  |               [LOA-4] r_tarsal_proximal_interphalangeal_5 : r_tarsal_middle_phalanx_5
+  |                 [LOA-4] r_tarsal_distal_interphalangeal_5 : r_tarsal_distal_phalanx_5
   [LOA-1] vl5 : l5
    [LOA-3] vl4 : l4
      [LOA-2] vl3 : l3
