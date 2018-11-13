@@ -11,7 +11,7 @@ Review notes
 
 ---
 
-## LOA-0 hierarchy
+## LOA-0 hierarchy (annotated)
 
 LOA-0 includes only one named *joint : segment* pair, as follows:
 
@@ -21,8 +21,8 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 
 ---
 
-## 4.9.6.1 LOA-1 hierarchy 
-* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
+## 4.9.6.1 LOA-1 hierarchy (annotated) 
+* Reference: http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
 
 ```
 [LOA-0] humanoid_root : sacrum
@@ -49,8 +49,8 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 
 ---
 
-## 4.9.6.2 LOA-2 hierarchy
-* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy2
+## 4.9.6.2 LOA-2 hierarchy (annotated)
+* Reference: http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy2
 
 ```
 [LOA-0] humanoid_root : sacrum
@@ -130,8 +130,8 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 
 ---
 
-## 4.9.6.3 LOA-3 hierarchy
-* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy3
+## 4.9.6.3 LOA-3 hierarchy (annotated)
+* Reference: http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy3
 
 The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figure 4.12 with the segment names listed after the joints to which they are attached.
 
@@ -236,8 +236,8 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
 
 ---
 
-## 4.9.6.4 LOA-4 hierarchy
-* http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy4
+## 4.9.6.4 LOA-4 hierarchy (annotated)
+* Reference: http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy4
 
 ```
 [LOA-0] humanoid_root : sacrum
