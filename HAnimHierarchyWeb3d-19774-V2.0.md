@@ -76,8 +76,8 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
               [LOA-2] vc4 : c4
               |   [LOA-2] vc2 : c2
               |     [LOA-1] skullbase : skull
-              l_sternoclavicular : l_clavicle
-              | l_acromioclavicular : l_scapula
+              [LOA-2] l_sternoclavicular : l_clavicle
+              | [LOA-2] l_acromioclavicular : l_scapula
               |   [LOA-1] l_shoulder : l_upperarm
               |     [LOA-1] l_elbow : l_forearm
               |       [LOA-1] l_radiocarpal : l_carpal                *MISMATCH hand/carpal*
@@ -100,8 +100,8 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
               |           l_metacarpophalangeal_5 : l_carpal_proximal_phalanx_5
               |             l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
               |               l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
-              r_sternoclavicular : r_clavicle
-                r_acromioclavicular : r_scapula
+              [LOA-2] r_sternoclavicular : r_clavicle
+                [LOA-2] r_acromioclavicular : r_scapula
                   [LOA-1] r_shoulder : r_upperarm
                     [LOA-1] r_elbow : r_forearm
                       [LOA-1] r_radiocarpal : r_carpal                               *MISMATCH hand/carpal*
@@ -182,8 +182,8 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                     |               l_eyebrow_joint : l_eyebrow
                                     |               r_eyebrow_joint : r_eyebrow
                                     |               temporomandibular : jaw
-                                    l_sternoclavicular : l_clavicle
-                                    | l_acromioclavicular : l_scapula
+                                    [LOA-2] l_sternoclavicular : l_clavicle
+                                    | [LOA-2] l_acromioclavicular : l_scapula
                                     |   [LOA-1] l_shoulder : l_upperarm
                                     |     [LOA-1] l_elbow : l_forearm
                                     |       [LOA-1] l_radiocarpal : l_carpal      *MISMATCH hand/carpal*
@@ -206,8 +206,8 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                     |           l_metacarpophalangeal_5 : l_carpal_proximal_phalanx_5
                                     |             l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
                                     |               l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
-                                    r_sternoclavicular : r_clavicle
-                                      r_acromioclavicular : r_scapula
+                                    [LOA-2] r_sternoclavicular : r_clavicle
+                                      [LOA-2] r_acromioclavicular : r_scapula
                                         [LOA-1] r_shoulder : r_upperarm
                                           [LOA-1] r_elbow : r_forearm
                                             [LOA-1] r_radiocarpal : r_carpal                               *MISMATCH hand/carpal*
@@ -330,8 +330,8 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                    |               l_eyebrow_joint : l_eyebrow
                                    |               r_eyebrow_joint : r_eyebrow
                                    |               temporomandibular : jaw
-                                   l_sternoclavicular : l_clavicle
-                                   | l_acromioclavicular : l_scapula
+                                   [LOA-2] l_sternoclavicular : l_clavicle
+                                   | [LOA-2] l_acromioclavicular : l_scapula
                                    |   [LOA-1] l_shoulder : l_upperarm
                                    |     [LOA-1] l_elbow : l_forearm
                                    |       [LOA-1] l_radiocarpal : l_carpal (l_hand)    *MISMATCH hand/carpal*
@@ -358,8 +358,8 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                    |             l_metacarpophalangeal_5 : l_carpal_proximal_phalanx_5
                                    |               l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
                                    |                 l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
-                                   r_sternoclavicular : r_clavicle
-                                     r_acromioclavicular : r_scapula
+                                   [LOA-2] r_sternoclavicular : r_clavicle
+                                     [LOA-2] r_acromioclavicular : r_scapula
                                        [LOA-1] r_shoulder : r_upperarm
                                          [LOA-1] r_elbow : r_forearm
                                            [LOA-1] r_radiocarpal : r_carpal (r_hand)                               *MISMATCH hand/carpal*
