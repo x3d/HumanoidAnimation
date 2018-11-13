@@ -273,7 +273,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   | [LOA-1] r_hip : r_thigh
   |   [LOA-1] r_knee : r_calf
   |     [LOA-1] r_talocrural : r_talus(l_hindfoot) *MISMATCH talus/hindfoot*
-  |       r_talocalcaneonavicular : r_navicular
+  |       [LOA-4] r_talocalcaneonavicular : r_navicular
   |       | [LOA-4] r_cuneonavicular_1 : r_cuneiform_1
   |       | | [LOA-2] r_tarsometatarsal_1 : r_metatarsal_1                        *MISMATCH r_tarsometatarsal (no _1)*
   |       | |   [LOA-4] r_metatarsophalangeal_1 : r_tarsal_proximal_phalanx_1
