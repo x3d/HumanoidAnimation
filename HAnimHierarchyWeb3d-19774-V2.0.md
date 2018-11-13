@@ -86,20 +86,20 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
               |         |   [LOA-2] l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
               |         [LOA-2] l_carpometacarpal_2 : l_metacarpal_2
               |         | [LOA-2] l_metacarpophalangeal_2 : l_carpal_proximal_phalanx_2
-              |         |   l_carpal_proximal_interphalangeal_2 : l_carpal_middle_phalanx_2
-              |         |     l_carpal_distal_interphalangeal_2 : l_carpal_distal_phalanx_2
+              |         |   [LOA-2] l_carpal_proximal_interphalangeal_2 : l_carpal_middle_phalanx_2
+              |         |     [LOA-2] l_carpal_distal_interphalangeal_2 : l_carpal_distal_phalanx_2
               |         [LOA-2] l_carpometacarpal_3 : l_metacarpal_3
               |         | [LOA-2] l_metacarpophalangeal_3 : l_carpal_proximal_phalanx_3
-              |         |  l_carpal_proximal_interphalangeal_3 : l_carpal_middle_phalanx_3
-              |         |     l_carpal_distal_interphalangeal_3 : l_carpal_distal_phalanx_3
+              |         |  [LOA-2] l_carpal_proximal_interphalangeal_3 : l_carpal_middle_phalanx_3
+              |         |     [LOA-2] l_carpal_distal_interphalangeal_3 : l_carpal_distal_phalanx_3
               |         [LOA-2] l_carpometacarpal_4 : l_metacarpal_4
               |         | [LOA-2] l_metacarpophalangeal_4 : l_carpal_proximal_phalanx_4
-              |         |   l_carpal_proximal_interphalangeal_4 : l_carpal_middle_phalanx_4
-              |         |     l_carpal_distal_interphalangeal_4 : l_carpal_distal_phalanx_4
+              |         |   [LOA-2] l_carpal_proximal_interphalangeal_4 : l_carpal_middle_phalanx_4
+              |         |     [LOA-2] l_carpal_distal_interphalangeal_4 : l_carpal_distal_phalanx_4
               |         [LOA-2] l_carpometacarpal_5 : l_metacarpal_5
               |           [LOA-2] l_metacarpophalangeal_5 : l_carpal_proximal_phalanx_5
-              |             l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
-              |               l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
+              |             [LOA-2] l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
+              |               [LOA-2] l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
               [LOA-2] r_sternoclavicular : r_clavicle
                 [LOA-2] r_acromioclavicular : r_scapula
                   [LOA-1] r_shoulder : r_upperarm
@@ -110,20 +110,20 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
                         |   [LOA-2] r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
                         [LOA-2] r_carpometacarpal_2 : r_metacarpal_2
                         | [LOA-2] r_metacarpophalangeal_2 : r_carpal_proximal_phalanx_2
-                        |   r_carpal_proximal_interphalangeal_2 : r_carpal_middle_phalanx_2
-                        |     r_carpal_distal_interphalangeal_2 : r_carpal_distal_phalanx_2
+                        |   [LOA-2] r_carpal_proximal_interphalangeal_2 : r_carpal_middle_phalanx_2
+                        |     [LOA-2] r_carpal_distal_interphalangeal_2 : r_carpal_distal_phalanx_2
                         [LOA-2] r_carpometacarpal_3 : r_metacarpal_3
                         | [LOA-2] r_metacarpophalangeal_3 : r_carpal_proximal_phalanx_3
-                        |   r_carpal_proximal_interphalangeal_3 : r_carpal_middle_phalanx_3
-                        |     r_carpal_distal_interphalangeal_3 : r_carpal_distal_phalanx_3
+                        |   [LOA-2] r_carpal_proximal_interphalangeal_3 : r_carpal_middle_phalanx_3
+                        |     [LOA-2] r_carpal_distal_interphalangeal_3 : r_carpal_distal_phalanx_3
                         [LOA-2] r_carpometacarpal_4 : r_metacarpal_4
                         | [LOA-2] r_metacarpophalangeal_4 : r_carpal_proximal_phalanx_4
-                        |   r_carpal_proximal_interphalangeal_4 : r_carpal_middle_phalanx_4
-                        |     r_carpal_distal_interphalangeal_4 : r_carpal_distal_phalanx_4
+                        |   [LOA-2] r_carpal_proximal_interphalangeal_4 : r_carpal_middle_phalanx_4
+                        |     [LOA-2] r_carpal_distal_interphalangeal_4 : r_carpal_distal_phalanx_4
                         [LOA-2] r_carpometacarpal_5 : r_metacarpal_5
                           [LOA-2] r_metacarpophalangeal_5 : r_carpal_proximal_phalanx_5
-                            r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
-                              r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
+                            [LOA-2] r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
+                              [LOA-2] r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 ```
 
 ### Figure 4.11 — Basic set of Joint:Segment hierarchy for LOA-2
@@ -192,20 +192,20 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                     |         |   [LOA-2] l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
                                     |         [LOA-2] l_carpometacarpal_2 : l_metacarpal_2
                                     |         | [LOA-2] l_metacarpophalangeal_2 : l_carpal_proximal_phalanx_2
-                                    |         |   l_carpal_proximal_interphalangeal_2 : l_carpal_middle_phalanx_2
-                                    |         |     l_carpal_distal_interphalangeal_2 : l_carpal_distal_phalanx_2
+                                    |         |   [LOA-2] l_carpal_proximal_interphalangeal_2 : l_carpal_middle_phalanx_2
+                                    |         |     [LOA-2] l_carpal_distal_interphalangeal_2 : l_carpal_distal_phalanx_2
                                     |         [LOA-2] l_carpometacarpal_3 : l_metacarpal_3
                                     |         | [LOA-2] l_metacarpophalangeal_3 : l_carpal_proximal_phalanx_3
-                                    |         |   l_carpal_proximal_interphalangeal_3 : l_carpal_middle_phalanx_3
-                                    |         |     l_carpal_distal_interphalangeal_3 : l_carpal_distal_phalanx_3
+                                    |         |   [LOA-2] l_carpal_proximal_interphalangeal_3 : l_carpal_middle_phalanx_3
+                                    |         |     [LOA-2] l_carpal_distal_interphalangeal_3 : l_carpal_distal_phalanx_3
                                     |         [LOA-2] l_carpometacarpal_4 : l_metacarpal_4
                                     |         | [LOA-2] l_metacarpophalangeal_4 : l_carpal_proximal_phalanx_4
-                                    |         |   l_carpal_proximal_interphalangeal_4 : l_carpal_middle_phalanx_4
-                                    |         |     l_carpal_distal_interphalangeal_4 : l_carpal_distal_phalanx_4
+                                    |         |   [LOA-2] l_carpal_proximal_interphalangeal_4 : l_carpal_middle_phalanx_4
+                                    |         |     [LOA-2] l_carpal_distal_interphalangeal_4 : l_carpal_distal_phalanx_4
                                     |         [LOA-2] l_carpometacarpal_5 : l_metacarpal_5
                                     |           [LOA-2] l_metacarpophalangeal_5 : l_carpal_proximal_phalanx_5
-                                    |             l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
-                                    |               l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
+                                    |             [LOA-2] l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
+                                    |               [LOA-2] l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
                                     [LOA-2] r_sternoclavicular : r_clavicle
                                       [LOA-2] r_acromioclavicular : r_scapula
                                         [LOA-1] r_shoulder : r_upperarm
@@ -216,20 +216,20 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                               |   [LOA-2] r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
                                               [LOA-2] r_carpometacarpal_2 : r_metacarpal_2
                                               | [LOA-2] r_metacarpophalangeal_2 : r_carpal_proximal_phalanx_2
-                                              |   r_carpal_proximal_interphalangeal_2 : r_carpal_middle_phalanx_2
-                                              |     r_carpal_distal_interphalangeal_2 : r_carpal_distal_phalanx_2
+                                              |   [LOA-2] r_carpal_proximal_interphalangeal_2 : r_carpal_middle_phalanx_2
+                                              |     [LOA-2] r_carpal_distal_interphalangeal_2 : r_carpal_distal_phalanx_2
                                               [LOA-2] r_carpometacarpal_3 : r_metacarpal_3
                                               | [LOA-2] r_metacarpophalangeal_3 : r_carpal_proximal_phalanx_3
-                                              |   r_carpal_proximal_interphalangeal_3 : r_carpal_middle_phalanx_3
-                                              |     r_carpal_distal_interphalangeal_3 : r_carpal_distal_phalanx_3
+                                              |   [LOA-2] r_carpal_proximal_interphalangeal_3 : r_carpal_middle_phalanx_3
+                                              |     [LOA-2] r_carpal_distal_interphalangeal_3 : r_carpal_distal_phalanx_3
                                               [LOA-2] r_carpometacarpal_4 : r_metacarpal_4
                                               | [LOA-2] r_metacarpophalangeal_4 : r_carpal_proximal_phalanx_4
-                                              |   r_carpal_proximal_interphalangeal_4 : r_carpal_middle_phalanx_4
-                                              |     r_carpal_distal_interphalangeal_4 : r_carpal_distal_phalanx_4
+                                              |   [LOA-2] r_carpal_proximal_interphalangeal_4 : r_carpal_middle_phalanx_4
+                                              |     [LOA-2] r_carpal_distal_interphalangeal_4 : r_carpal_distal_phalanx_4
                                               [LOA-2] r_carpometacarpal_5 : r_metacarpal_5
                                                 [LOA-2] r_metacarpophalangeal_5 : r_carpal_proximal_phalanx_5
-                                                  r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
-                                                    r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
+                                                  [LOA-2] r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
+                                                    [LOA-2] r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 ```
 
 ### Figure 4.12 — Basic set of Joint:Segment hierarchy for LOA-3
@@ -342,22 +342,22 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                    |         l_midcarpal_2 : l_trapezoid
                                    |         | [LOA-2] l_carpometacarpal_2 : l_metacarpal_2
                                    |         |   [LOA-2] l_metacarpophalangeal_2 : l_carpal_proximal_phalanx_2 
-                                   |         |     l_carpal_proximal_interphalangeal_2 : l_carpal_middle_phalanx_2
-                                   |         |       l_carpal_distal_interphalangeal_2 : l_carpal_distal_phalanx_2
+                                   |         |     [LOA-2] l_carpal_proximal_interphalangeal_2 : l_carpal_middle_phalanx_2
+                                   |         |       [LOA-2] l_carpal_distal_interphalangeal_2 : l_carpal_distal_phalanx_2
                                    |         l_midcarpal_3 : l_capitate
                                    |         | [LOA-2] l_carpometacarpal_3 : l_metacarpal_3
                                    |         |   [LOA-2] l_metacarpophalangeal_3 : l_carpal_proximal_phalanx_3
-                                   |         |     l_carpal_proximal_interphalangeal_3 : l_carpal_middle_phalanx_3
-                                   |         |       l_carpal_distal_interphalangeal_3 : l_carpal_distal_phalanx_3
+                                   |         |     [LOA-2] l_carpal_proximal_interphalangeal_3 : l_carpal_middle_phalanx_3
+                                   |         |       [LOA-2] l_carpal_distal_interphalangeal_3 : l_carpal_distal_phalanx_3
                                    |         l_midcarpal_4_5 : l_hamate
                                    |           [LOA-2] l_carpometacarpal_4 : l_metacarpal_4
                                    |           | [LOA-2] l_metacarpophalangeal_4 : l_carpal_proximal_phalanx_4
-                                   |           |   l_carpal_proximal_interphalangeal_4 : l_carpal_middle_phalanx_4
-                                   |           |     l_carpal_distal_interphalangeal_4 : l_carpal_distal_phalanx_4
+                                   |           |   [LOA-2] l_carpal_proximal_interphalangeal_4 : l_carpal_middle_phalanx_4
+                                   |           |     [LOA-2] l_carpal_distal_interphalangeal_4 : l_carpal_distal_phalanx_4
                                    |           [LOA-2] l_carpometacarpal_5 : l_metacarpal_5
                                    |             [LOA-2] l_metacarpophalangeal_5 : l_carpal_proximal_phalanx_5
-                                   |               l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
-                                   |                 l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
+                                   |               [LOA-2] l_carpal_proximal_interphalangeal_5 : l_carpal_middle_phalanx_5
+                                   |                 [LOA-2] l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
                                    [LOA-2] r_sternoclavicular : r_clavicle
                                      [LOA-2] r_acromioclavicular : r_scapula
                                        [LOA-1] r_shoulder : r_upperarm
@@ -370,22 +370,22 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                              r_midcarpal_2 : l_trapezoid
                                              | [LOA-2] r_carpometacarpal_2 : r_metacarpal_2
                                              |   [LOA-2] r_metacarpophalangeal_2 : r_carpal_proximal_phalanx_2 
-                                             |     r_carpal_proximal_interphalangeal_2 : r_carpal_middle_phalanx_2
-                                             |       r_carpal_distal_interphalangeal_2 : r_carpal_distal_phalanx_2
+                                             |     [LOA-2] r_carpal_proximal_interphalangeal_2 : r_carpal_middle_phalanx_2
+                                             |       [LOA-2] r_carpal_distal_interphalangeal_2 : r_carpal_distal_phalanx_2
                                              r_midcarpal_3 : r_capitate
                                              | [LOA-2] r_carpometacarpal_3 : r_metacarpal_3
                                              |   [LOA-2] r_metacarpophalangeal_3 : r_carpal_proximal_phalanx_3
-                                             |     r_carpal_proximal_interphalangeal_3 : r_carpal_middle_phalanx_3
-                                             |       r_carpal_distal_interphalangeal_3 : r_carpal_distal_phalanx_3
+                                             |     [LOA-2] r_carpal_proximal_interphalangeal_3 : r_carpal_middle_phalanx_3
+                                             |       [LOA-2] r_carpal_distal_interphalangeal_3 : r_carpal_distal_phalanx_3
                                              r_midcarpal_4_5 : r_hamate
                                                [LOA-2] r_carpometacarpal_4 : r_metacarpal_4
                                                | [LOA-2] r_metacarpophalangeal_4 : r_carpal_proximal_phalanx_4
-                                               |   r_carpal_proximal_interphalangeal_4 : r_carpal_middle_phalanx_4
-                                               |     r_carpal_distal_interphalangeal_4 : r_carpal_distal_phalanx_4
+                                               |   [LOA-2] r_carpal_proximal_interphalangeal_4 : r_carpal_middle_phalanx_4
+                                               |     [LOA-2] r_carpal_distal_interphalangeal_4 : r_carpal_distal_phalanx_4
                                                [LOA-2] r_carpometacarpal_5 : r_metacarpal_5
                                                  [LOA-2] r_metacarpophalangeal_5 : r_carpal_proximal_phalanx_5
-                                                   r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
-                                                     r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
+                                                   [LOA-2] r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
+                                                     [LOA-2] r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 ```
 
 ### Figure 4.13 — Basic set of Joint:Segment hierarchy for LOA-4
