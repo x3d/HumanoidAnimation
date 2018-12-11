@@ -29,7 +29,7 @@ humanoid_root : sacrum
       r_elbow : r_forearm
         r_radiocarpal : r_hand
 
-Figure 4.10 — Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
+Figure 4.10 -- Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
 
 =========================================================================================
 4.9.6.2 LOA-2 hierarchy
@@ -107,7 +107,7 @@ humanoid_root : sacrum
                             r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                               r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 
-Figure 4.11 — Basic set of Joint:Segment hierarchy for LOA-2
+Figure 4.11 -- Basic set of Joint:Segment hierarchy for LOA-2
 
 =========================================================================================
 4.9.6.3 LOA-3 hierarchy
@@ -210,7 +210,7 @@ humanoid_root : sacrum
                                                   r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                                                     r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 
-Figure 4.12 — Basic set of Joint:Segment hierarchy for LOA-3
+Figure 4.12 -- Basic set of Joint:Segment hierarchy for LOA-3
 
 =========================================================================================
 4.9.6.4 LOA-4 hierarchy
@@ -363,7 +363,7 @@ humanoid_root : sacrum
                                                    r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                                                      r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 
-Figure 4.13 — Basic set of Joint:Segment hierarchy for LOA-4
+Figure 4.13 -- Basic set of Joint:Segment hierarchy for LOA-4
 
 =========================================================================================4.9.6 Hierarchy
 http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy
@@ -396,7 +396,7 @@ humanoid_root : sacrum
       r_elbow : r_forearm
         r_radiocarpal : r_hand
 
-Figure 4.10 — Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
+Figure 4.10 -- Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
 
 =========================================================================================
 4.9.6.2 LOA-2 hierarchy
@@ -474,7 +474,7 @@ humanoid_root : sacrum
                             r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                               r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 
-Figure 4.11 — Basic set of Joint:Segment hierarchy for LOA-2
+Figure 4.11 -- Basic set of Joint:Segment hierarchy for LOA-2
 
 =========================================================================================
 4.9.6.3 LOA-3 hierarchy
@@ -577,7 +577,7 @@ humanoid_root : sacrum
                                                   r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                                                     r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 
-Figure 4.12 — Basic set of Joint:Segment hierarchy for LOA-3
+Figure 4.12 -- Basic set of Joint:Segment hierarchy for LOA-3
 
 =========================================================================================
 4.9.6.4 LOA-4 hierarchy
@@ -730,6 +730,6 @@ humanoid_root : sacrum
                                                    r_carpal_proximal_interphalangeal_5 : r_carpal_middle_phalanx_5
                                                      r_carpal_distal_interphalangeal_5 : r_carpal_distal_phalanx_5
 
-Figure 4.13 — Basic set of Joint:Segment hierarchy for LOA-4
+Figure 4.13 -- Basic set of Joint:Segment hierarchy for LOA-4
 
 =========================================================================================
