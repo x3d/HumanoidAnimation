@@ -24,7 +24,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 ---
 
 ## 4.9.6.1 LOA-1 hierarchy (annotated) 
-* Reference: [4.9.6.1 LOA-1 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
+* Reference: [4.9.6.1 LOA-1 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1)
 * Reference: [4.9.7 Sites and Segment relationships](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#SiteSegmentRelationships)
 
 ```
