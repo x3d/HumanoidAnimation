@@ -24,7 +24,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 ---
 
 ## 4.9.6.1 LOA-1 hierarchy (annotated) 
-* Reference: [4.9.6.1 LOA?1 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
+* Reference: [4.9.6.1 LOA-1 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy1
 * Reference: [4.9.7 Sites and Segment relationships](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#SiteSegmentRelationships)
 
 ```
@@ -55,7 +55,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 ---
 
 ## 4.9.6.2 LOA-2 hierarchy (annotated)
-* Reference: [4.9.6.2 LOA?2 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy2)
+* Reference: [4.9.6.2 LOA-2 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy2)
 * Reference: [4.9.7 Sites and Segment relationships](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#SiteSegmentRelationships)
 
 ```
@@ -139,7 +139,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 ---
 
 ## 4.9.6.3 LOA-3 hierarchy (annotated)
-* Reference: [4.9.6.3 LOA?3 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy3)
+* Reference: [4.9.6.3 LOA-3 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy3)
 * Reference: [4.9.7 Sites and Segment relationships](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#SiteSegmentRelationships)
 
 The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figure 4.12 with the segment names listed after the joints to which they are attached.
@@ -248,7 +248,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
 ---
 
 ## 4.9.6.4 LOA-4 hierarchy (annotated)
-* Reference: [4.9.6.4 LOA?4 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy4)
+* Reference: [4.9.6.4 LOA-4 hierarchy](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#Hierarchy4)
 * Reference: [4.9.7 Sites and Segment relationships](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#SiteSegmentRelationships)
 
 ```
