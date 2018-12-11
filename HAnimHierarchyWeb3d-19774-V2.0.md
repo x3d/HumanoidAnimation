@@ -16,7 +16,7 @@ Review notes
 LOA-0 includes only one named *joint : segment* pair, as follows:
 
 ```
-[LOA-#] jointName : segmentName : siteName
+[LOA-#] jointName : segmentName : siteName (comma-separated list)
 
 [LOA-0] humanoid_root : sacrum
 ```
@@ -28,7 +28,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 * Reference: [4.9.7 Sites and Segment relationships](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#SiteSegmentRelationships)
 
 ```
-[LOA-#] jointName : segmentName : siteName(s)
+[LOA-#] jointName : segmentName : siteName (comma-separated list)
 
 [LOA-0] humanoid_root : sacrum
   [LOA-1] sacroiliac : pelvis
@@ -41,7 +41,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
   |     [LOA-1] r_talocrural : r_hindfoot                               *MISMATCH talus/hindfoot*
   |       [LOA-1] r_metatarsophalangeal : r_middistal                   *MISMATCH middistal/tarsal_proximal_phalanx*
   [LOA-1] vl5 : l5
-    [LOA-1] skullbase : skull : skull_tip
+    [LOA-1] skullbase : skull : skull_tip, sellion, r_infraorbitale, l_infraorbitale, supramenton, r_tragion, r_gonion, l_tragion, l_gonion, nuchale
     [LOA-1] l_shoulder : l_upperarm
     | [LOA-1] l_elbow : l_forearm
     |   [LOA-1] l_radiocarpal : l_hand                                  *MISMATCH hand/carpal*
@@ -59,7 +59,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 * Reference: [4.9.7 Sites and Segment relationships](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#SiteSegmentRelationships)
 
 ```
-[LOA-#] jointName : segmentName : siteName(s)
+[LOA-#] jointName : segmentName : siteName (comma-separated list)(s)
 
 [LOA-0] humanoid_root : sacrum
   [LOA-1] sacroiliac : pelvis
@@ -145,7 +145,7 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figure 4.12 with the segment names listed after the joints to which they are attached.
 
 ```
-[LOA-#] jointName : segmentName : siteName(s)
+[LOA-#] jointName : segmentName : siteName (comma-separated list)(s)
 
 [LOA-0] humanoid_root : sacrum
   [LOA-1] sacroiliac : pelvis
@@ -252,7 +252,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
 * Reference: [4.9.7 Sites and Segment relationships](http://www.web3d.org/documents/specifications/19774-1/V2.0/HAnim/concepts.html#SiteSegmentRelationships)
 
 ```
-[LOA-#] jointName : segmentName : siteName(s)
+[LOA-#] jointName : segmentName : siteName (comma-separated list)(s)
 
 [LOA-0] humanoid_root : sacrum
   [LOA-1] sacroiliac : pelvis
