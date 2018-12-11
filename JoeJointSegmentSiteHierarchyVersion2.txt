@@ -1,6 +1,6 @@
 DISJointSegmentSiteHierarchy[20181210].txt
 
-﻿from 4.9.6.4 LOA4 hierarchy
+from 4.9.6.4 LOA4 hierarchy
 Total hierarchy of DIS LOA4  20181024 sent25 addlocations27 
 addsegment[sourcetodestination]30 minoredits1203 
 check names with .MD 1114
