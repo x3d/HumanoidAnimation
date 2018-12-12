@@ -5,3 +5,7 @@ Humanoid Animation (HAnim) International Standard for modeling and animation
 * [HAnim Standards](http://www.web3d.org/standards/h-anim)
 * [Humanoid Animation Example Models](http://www.web3d.org/x3d/content/examples/Basic/HumanoidAnimation) in [X3D Basic Examples Archive](http://www.web3d.org/x3d/content/examples/Basic)
 * [#HAnim on Twitter](http://twitter.com/#HAnim)
+
+TODO
+* CAESAR
+* ISO 7250 parts 1 and 2
