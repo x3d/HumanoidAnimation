@@ -31,23 +31,23 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 [LOA-#] jointName : segmentName : siteName (comma-separated list)
 
 [LOA-0] humanoid_root : sacrum
-  [LOA-1] sacroiliac : pelvis
-  | [LOA-1] l_hip : l_thigh
+  [LOA-1] sacroiliac : pelvis : r_iliocristale, r_trochanterion, l_iliocristale, l_trochanterion, r_asis, l_asis, r_psis, l_psis, crotch
+  | [LOA-1] l_hip : l_thigh : l_knee_crease, l_femoral_lateral_epicn, l_femoral_medial_epicn
   | | [LOA-1] l_knee : l_calf
-  | |   [LOA-1] l_talocrural : l_hindfoot                               *MISMATCH talus/hindfoot*
+  | |   [LOA-1] l_talocrural : l_hindfoot : l_lateral_malleolus, l_medial_malleolus, l_sphyrion, l_calcaneous_post  *MISMATCH talus/hindfoot*
   | |     [LOA-1] l_metatarsophalangeal : l_middistal                   *MISMATCH middistal/tarsal_proximal_phalanx*
-  | [LOA-1] r_hip : r_thigh
+  | [LOA-1] r_hip : r_thigh : r_knee_crease, r_femoral_lateral_epicn, r_femoral_medial_epicn
   |   [LOA-1] r_knee : r_calf
-  |     [LOA-1] r_talocrural : r_hindfoot                               *MISMATCH talus/hindfoot*
+  |     [LOA-1] r_talocrural : r_hindfoot : r_lateral_malleolus, r_medial_malleolus, r_sphyrion, r_calcaneous_post  *MISMATCH talus/hindfoot*
   |       [LOA-1] r_metatarsophalangeal : r_middistal                   *MISMATCH middistal/tarsal_proximal_phalanx*
-  [LOA-1] vl5 : l5
+  [LOA-1] vl5 : l5 : waist_preferred_post, navel
     [LOA-1] skullbase : skull : skull_tip, sellion, r_infraorbitale, l_infraorbitale, supramenton, r_tragion, r_gonion, l_tragion, l_gonion, nuchale
-    [LOA-1] l_shoulder : l_upperarm
-    | [LOA-1] l_elbow : l_forearm
-    |   [LOA-1] l_radiocarpal : l_hand                                  *MISMATCH hand/carpal*
-    [LOA-1] r_shoulder : r_upperarm
-      [LOA-1] r_elbow : r_forearm
-        [LOA-1] r_radiocarpal : r_hand                                  *MISMATCH hand/carpal*
+    [LOA-1] l_shoulder : l_upperarm : l_humeral_lateral_epicn
+    | [LOA-1] l_elbow : l_forearm : l_radial_styloid, l_olecranon, l_humeral_medial_epicn, l_radiale
+    |   [LOA-1] l_radiocarpal : l_hand : l_metacarpal_pha2, l_ulnar_styloid, l_metacarpal_pha5   *MISMATCH hand/carpal*
+    [LOA-1] r_shoulder : r_upperarm : r_humeral_lateral_epicn
+      [LOA-1] r_elbow : r_forearm : r_radial_styloid, r_olecranon, r_humeral_medial_epicn, r_radiale
+        [LOA-1] r_radiocarpal : r_hand : r_metacarpal_pha2, r_ulnar_styloid, r_metacarpal_pha5   *MISMATCH hand/carpal*
 ```
 
 ### Figure 4.10 — Basic set of Joint:Segment hierarchy for LOA-1 (joint name : segment name)
@@ -62,20 +62,20 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
 [LOA-#] jointName : segmentName : siteName (comma-separated list)(s)
 
 [LOA-0] humanoid_root : sacrum
-  [LOA-1] sacroiliac : pelvis
-  | [LOA-1] l_hip : l_thigh
+  [LOA-1] sacroiliac : pelvis : r_iliocristale, r_trochanterion, l_iliocristale, l_trochanterion, r_asis, l_asis, r_psis, l_psis, crotch
+  | [LOA-1] l_hip : l_thigh : l_knee_crease, l_femoral_lateral_epicn, l_femoral_medial_epicn
   | | [LOA-1] l_knee : l_calf
-  | |   [LOA-1] l_talocrural : l_talus                                 *MISMATCH talus/hindfoot*
+  | |   [LOA-1] l_talocrural : l_talus : l_lateral_malleolus, l_medial_malleolus, l_sphyrion, l_calcaneous_post *MISMATCH talus/hindfoot*
   | |     [LOA-2] l_tarsometatarsal : l_metatarsal
   | |       [LOA-1] l_metatarsophalangeal : l_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   | |         [LOA-2] l_tarsal_interphalangeal : l_tarsal_distal_phalanx
-  | [LOA-1] r_hip : r_thigh
+  | [LOA-1] r_hip : r_thigh : r_knee_crease, r_femoral_lateral_epicn, r_femoral_medial_epicn
   |   [LOA-1] r_knee : r_calf
-  |     [LOA-1] r_talocrural : r_talus                                 *MISMATCH talus/hindfoot*
+  |     [LOA-1] r_talocrural : r_talus : r_lateral_malleolus, r_medial_malleolus, r_sphyrion, r_calcaneous_post   *MISMATCH talus/hindfoot*
   |       [LOA-2] r_tarsometatarsal : r_metatarsal
   |         [LOA-1] r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   |           [LOA-2] r_tarsal_interphalangeal : r_tarsal_distal_phalanx
-  [LOA-1] vl5 : l5
+  [LOA-1] vl5 : l5 : waist_preferred_post, navel
     [LOA-2] vl3 : l3
       [LOA-2] vl1 : l1
         [LOA-2] vt10 : t10
@@ -86,9 +86,9 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
               |     [LOA-1] skullbase : skull : skull_tip
               [LOA-2] l_sternoclavicular : l_clavicle
               | [LOA-2] l_acromioclavicular : l_scapula
-              |   [LOA-1] l_shoulder : l_upperarm
-              |     [LOA-1] l_elbow : l_forearm
-              |       [LOA-1] l_radiocarpal : l_carpal                *MISMATCH hand/carpal*
+              |   [LOA-1] l_shoulder : l_upperarm : l_humeral_lateral_epicn
+              |     [LOA-1] l_elbow : l_forearm : l_radial_styloid, l_olecranon, l_humeral_medial_epicn, l_radiale
+              |       [LOA-1] l_radiocarpal : l_carpal : l_metacarpal_pha2, l_ulnar_styloid, l_metacarpal_pha5   *MISMATCH hand/carpal*
               |         [LOA-2] l_carpometacarpal_1 : l_metacarpal_1
               |         | [LOA-2] l_metacarpophalangeal_1 : l_carpal_proximal_phalanx_1
               |         |   [LOA-2] l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
@@ -110,9 +110,9 @@ LOA-0 includes only one named *joint : segment* pair, as follows:
               |               [LOA-2] l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
               [LOA-2] r_sternoclavicular : r_clavicle
                 [LOA-2] r_acromioclavicular : r_scapula
-                  [LOA-1] r_shoulder : r_upperarm
-                    [LOA-1] r_elbow : r_forearm
-                      [LOA-1] r_radiocarpal : r_carpal                               *MISMATCH hand/carpal*
+                  [LOA-1] r_shoulder : r_upperarm : r_humeral_lateral_epicn
+                    [LOA-1] r_elbow : r_forearm : r_radial_styloid, r_olecranon, r_humeral_medial_epicn, r_radiale
+                      [LOA-1] r_radiocarpal : r_carpal : r_metacarpal_pha2, r_ulnar_styloid, r_metacarpal_pha5   *MISMATCH hand/carpal*
                         [LOA-2] r_carpometacarpal_1 : r_metacarpal_1
                         | [LOA-2] r_metacarpophalangeal_1 : r_carpal_proximal_phalanx_1
                         |   [LOA-2] r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
@@ -148,20 +148,20 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
 [LOA-#] jointName : segmentName : siteName (comma-separated list)(s)
 
 [LOA-0] humanoid_root : sacrum
-  [LOA-1] sacroiliac : pelvis
-  | [LOA-1] l_hip : l_thigh
+  [LOA-1] sacroiliac : pelvis : r_iliocristale, r_trochanterion, l_iliocristale, l_trochanterion, r_asis, l_asis, r_psis, l_psis, crotch
+  | [LOA-1] l_hip : l_thigh : l_knee_crease, l_femoral_lateral_epicn, l_femoral_medial_epicn
   | | [LOA-1] l_knee : l_calf
-  | |   [LOA-1] l_talocrural : l_talus                                 *MISMATCH talus/hindfoot*
+  | |   [LOA-1] l_talocrural : l_talus : l_lateral_malleolus, l_medial_malleolus, l_sphyrion, l_calcaneous_post   *MISMATCH talus/hindfoot*
   | |     [LOA-2] l_tarsometatarsal : l_metatarsal
   | |       [LOA-1] l_metatarsophalangeal : l_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   | |         [LOA-2] l_tarsal_interphalangeal : l_tarsal_distal_phalanx
-  | [LOA-1] r_hip : r_thigh
+  | [LOA-1] r_hip : r_thigh : r_knee_crease, r_femoral_lateral_epicn, r_femoral_medial_epicn
   |   [LOA-1] r_knee : r_calf
-  |     [LOA-1] r_talocrural : r_talus                                 *MISMATCH talus/hindfoot*
+  |     [LOA-1] r_talocrural : r_talus : r_lateral_malleolus, r_medial_malleolus, r_sphyrion, r_calcaneous_post   *MISMATCH talus/hindfoot*
   |       [LOA-2] r_tarsometatarsal : r_metatarsal
   |         [LOA-1] r_metatarsophalangeal : r_tarsal_proximal_phalanx  *MISMATCH middistal/tarsal_proximal_phalanx*
   |           [LOA-2] r_tarsal_interphalangeal : r_tarsal_distal_phalanx  *TYPO mispelled*
-  [LOA-1] vl5 : l5
+  [LOA-1] vl5 : l5 : waist_preferred_post, navel
     [LOA-3] vl4 : l4
       [LOA-2] vl3 : l3
         [LOA-3] vl2 : l2
@@ -195,9 +195,9 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                     |               [LOA-3] temporomandibular : jaw
                                     [LOA-2] l_sternoclavicular : l_clavicle
                                     | [LOA-2] l_acromioclavicular : l_scapula
-                                    |   [LOA-1] l_shoulder : l_upperarm
-                                    |     [LOA-1] l_elbow : l_forearm
-                                    |       [LOA-1] l_radiocarpal : l_carpal      *MISMATCH hand/carpal*
+                                    |   [LOA-1] l_shoulder : l_upperarm : l_humeral_lateral_epicn
+                                    |     [LOA-1] l_elbow : l_forearm : l_radial_styloid, l_olecranon, l_humeral_medial_epicn, l_radiale
+                                    |       [LOA-1] l_radiocarpal : l_carpal : l_metacarpal_pha2, l_ulnar_styloid, l_metacarpal_pha5   *MISMATCH hand/carpal*
                                     |         [LOA-2] l_carpometacarpal_1 : l_metacarpal_1
                                     |         | [LOA-2] l_metacarpophalangeal_1 : l_carpal_proximal_phalanx_1
                                     |         |   [LOA-2] l_carpal_interphalangeal_1 : l_carpal_distal_phalanx_1
@@ -219,9 +219,9 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                     |               [LOA-2] l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
                                     [LOA-2] r_sternoclavicular : r_clavicle
                                       [LOA-2] r_acromioclavicular : r_scapula
-                                        [LOA-1] r_shoulder : r_upperarm
-                                          [LOA-1] r_elbow : r_forearm
-                                            [LOA-1] r_radiocarpal : r_carpal                               *MISMATCH hand/carpal*
+                                        [LOA-1] r_shoulder : r_upperarm : r_humeral_lateral_epicn
+                                          [LOA-1] r_elbow : r_forearm : r_radial_styloid, r_olecranon, r_humeral_medial_epicn, r_radiale
+                                            [LOA-1] r_radiocarpal : r_carpal : r_metacarpal_pha2, r_ulnar_styloid, r_metacarpal_pha5   *MISMATCH hand/carpal*
                                               [LOA-2] r_carpometacarpal_1 : r_metacarpal_1
                                               | [LOA-2] r_metacarpophalangeal_1 : r_carpal_proximal_phalanx_1
                                               |   [LOA-2] r_carpal_interphalangeal_1 : r_carpal_distal_phalanx_1
@@ -255,10 +255,10 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
 [LOA-#] jointName : segmentName : siteName (comma-separated list)(s)
 
 [LOA-0] humanoid_root : sacrum
-  [LOA-1] sacroiliac : pelvis
-  | [LOA-1] l_hip : l_thigh
+  [LOA-1] sacroiliac : pelvis : r_iliocristale, r_trochanterion, l_iliocristale, l_trochanterion, r_asis, l_asis, r_psis, l_psis, crotch
+  | [LOA-1] l_hip : l_thigh : l_knee_crease, l_femoral_lateral_epicn, l_femoral_medial_epicn
   | | [LOA-1] l_knee : l_calf
-  | |   [LOA-1] l_talocrural : l_talus(l_hindfoot) *MISMATCH talus/hindfoot*
+  | |   [LOA-1] l_talocrural : l_talus(l_hindfoot) : l_lateral_malleolus, l_medial_malleolus, l_sphyrion, l_calcaneous_post *MISMATCH talus/hindfoot*
   | |     [LOA-4] l_talocalcaneonavicular : l_navicular
   | |     | [LOA-4] l_cuneonavicular_1 : l_cuneiform_1
   | |     | | [LOA-2] l_tarsometatarsal_1 : l_metatarsal_1                       *MISMATCH r_tarsometatarsal (no _1)*
@@ -284,9 +284,9 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   | |           [LOA-4] l_metatarsophalangeal_5 : l_tarsal_proximal_phalanx_5
   | |             [LOA-4] l_tarsal_proximal_interphalangeal_5 : l_tarsal_middle_phalanx_5
   | |               [LOA-4] l_tarsal_distal_interphalangeal_5 : l_tarsal_distal_phalanx_5
-  | [LOA-1] r_hip : r_thigh
+  | [LOA-1] r_hip : r_thigh : r_knee_crease, r_femoral_lateral_epicn, r_femoral_medial_epicn
   |   [LOA-1] r_knee : r_calf
-  |     [LOA-1] r_talocrural : r_talus(l_hindfoot) *MISMATCH talus/hindfoot*
+  |     [LOA-1] r_talocrural : r_talus(l_hindfoot) : r_lateral_malleolus, r_medial_malleolus, r_sphyrion, r_calcaneous_post   *MISMATCH talus/hindfoot*
   |       [LOA-4] r_talocalcaneonavicular : r_navicular
   |       | [LOA-4] r_cuneonavicular_1 : r_cuneiform_1
   |       | | [LOA-2] r_tarsometatarsal_1 : r_metatarsal_1                        *MISMATCH r_tarsometatarsal (no _1)*
@@ -312,7 +312,7 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
   |             [LOA-4] r_metatarsophalangeal_5 : r_tarsal_proximal_phalanx_5
   |               [LOA-4] r_tarsal_proximal_interphalangeal_5 : r_tarsal_middle_phalanx_5
   |                 [LOA-4] r_tarsal_distal_interphalangeal_5 : r_tarsal_distal_phalanx_5
-  [LOA-1] vl5 : l5
+  [LOA-1] vl5 : l5 : waist_preferred_post, navel
    [LOA-3] vl4 : l4
      [LOA-2] vl3 : l3
        [LOA-3] vl2 : l2
@@ -346,9 +346,9 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                    |               [LOA-3] temporomandibular : jaw
                                    [LOA-2] l_sternoclavicular : l_clavicle
                                    | [LOA-2] l_acromioclavicular : l_scapula
-                                   |   [LOA-1] l_shoulder : l_upperarm
-                                   |     [LOA-1] l_elbow : l_forearm
-                                   |       [LOA-1] l_radiocarpal : l_carpal (l_hand)    *MISMATCH hand/carpal*
+                                   |   [LOA-1] l_shoulder : l_upperarm : l_humeral_lateral_epicn
+                                   |     [LOA-1] l_elbow : l_forearm : l_radial_styloid, l_olecranon, l_humeral_medial_epicn, l_radiale
+                                   |       [LOA-1] l_radiocarpal : l_carpal (l_hand) : l_metacarpal_pha2, l_ulnar_styloid, l_metacarpal_pha5    *MISMATCH hand/carpal*
                                    |         [LOA-4] l_midcarpal_1 : l_trapezium
                                    |         | [LOA-2] l_carpometacarpal_1 : l_metacarpal_1
                                    |         |   [LOA-2] l_metacarpophalangeal_1 : l_carpal_proximal_phalanx_1
@@ -374,9 +374,9 @@ The LOA-3 hierarchy forming the basic set of Joint objects is specified in Figur
                                    |                 [LOA-2] l_carpal_distal_interphalangeal_5 : l_carpal_distal_phalanx_5
                                    [LOA-2] r_sternoclavicular : r_clavicle
                                      [LOA-2] r_acromioclavicular : r_scapula
-                                       [LOA-1] r_shoulder : r_upperarm
-                                         [LOA-1] r_elbow : r_forearm
-                                           [LOA-1] r_radiocarpal : r_carpal (r_hand)                               *MISMATCH hand/carpal*
+                                       [LOA-1] r_shoulder : r_upperarm : r_humeral_lateral_epicn
+                                         [LOA-1] r_elbow : r_forearm : r_radial_styloid, r_olecranon, r_humeral_medial_epicn, r_radiale
+                                           [LOA-1] r_radiocarpal : r_carpal (r_hand) : r_metacarpal_pha2, r_ulnar_styloid, r_metacarpal_pha5   *MISMATCH hand/carpal*
                                              [LOA-4] r_midcarpal_1 : r_trapezium
                                              | [LOA-2] r_carpometacarpal_1 : r_metacarpal_1
                                              |   [LOA-2] r_metacarpophalangeal_1 : r_carpal_proximal_phalanx_1
