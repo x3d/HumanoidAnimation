@@ -90,7 +90,8 @@
 
 --- CAESAR includes 80 points; following new points are from 7250 ------------------
 
-81  vertex (skull-tip)                     not present*             5.22 vertex (top of head)
+0   skull_tip                              not present*             5.22 vertex (top of head)
+98  not present                       #C9  Nuchale                  5.11 Nuchale
 82  r_neck_base                            not present*             not present
 83  l_neck_base                            not present*             not present
 84  navel                             #C76 navel                    not present
@@ -109,29 +110,29 @@
 96  l_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
 97  r_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
 
-TODO are there any other 7250 names?  Joe has a list...
+98-100 unused, reserved for future use
 
 --- HAnim unique names ------------------- (*old HAnim names in models) -------
 
-98  l_carpal_distal_phalanx_1_tip          (l_thumb_distal_tip*)    not present
-99  l_carpal_distal_phalanx_2_tip          (l_index_distal_tip*)    not present
-100 l_carpal_distal_phalanx_3_tip          (l_middle_distal_tip*)   not present
-101 l_carpal_distal_phalanx_4_tip          (l_ring_distal_tip*)     not present
-102 l_carpal_distal_phalanx_5_tip          (l_pinky_distal_tip*)    not present
-103 r_carpal_distal_phalanx_1_tip          (r_thumb_distal_tip*)    not present
-104 r_carpal_distal_phalanx_2_tip          (r_index_distal_tip*)    not present
-105 r_carpal_distal_phalanx_3_tip          (r_middle_distal_tip*)   not present
-106 r_carpal_distal_phalanx_4_tip          (r_ring_distal_tip*)     not present
-107 r_carpal_distal_phalanx_5_tip          (r_pinky_distal_tip*)    not present
-108 l_tarsal_distal_phalanx_1_tip          not present              not present
-109 l_tarsal_distal_phalanx_2_tip          not present              not present
-110 l_tarsal_distal_phalanx_3_tip          not present              not present
-111 l_tarsal_distal_phalanx_4_tip          not present              not present
-112 l_tarsal_distal_phalanx_5_tip          not present              not present
-113 r_tarsal_distal_phalanx_1_tip          not present              not present
-114 r_tarsal_distal_phalanx_2_tip          not present              not present
-115 r_tarsal_distal_phalanx_3_tip          not present              not present
-116 r_tarsal_distal_phalanx_4_tip          not present              not present
-117 r_tarsal_distal_phalanx_5_tip          not present              not present
+101 l_carpal_distal_phalanx_1_tip          (l_thumb_distal_tip*)    not present
+102 l_carpal_distal_phalanx_2_tip          (l_index_distal_tip*)    not present
+103 l_carpal_distal_phalanx_3_tip          (l_middle_distal_tip*)   not present
+104 l_carpal_distal_phalanx_4_tip          (l_ring_distal_tip*)     not present
+105 l_carpal_distal_phalanx_5_tip          (l_pinky_distal_tip*)    not present
+106 r_carpal_distal_phalanx_1_tip          (r_thumb_distal_tip*)    not present
+107 r_carpal_distal_phalanx_2_tip          (r_index_distal_tip*)    not present
+108 r_carpal_distal_phalanx_3_tip          (r_middle_distal_tip*)   not present
+109 r_carpal_distal_phalanx_4_tip          (r_ring_distal_tip*)     not present
+110 r_carpal_distal_phalanx_5_tip          (r_pinky_distal_tip*)    not present
+111 l_tarsal_distal_phalanx_1_tip          not present              not present
+112 l_tarsal_distal_phalanx_2_tip          not present              not present
+113 l_tarsal_distal_phalanx_3_tip          not present              not present
+114 l_tarsal_distal_phalanx_4_tip          not present              not present
+115 l_tarsal_distal_phalanx_5_tip          not present              not present
+116 r_tarsal_distal_phalanx_1_tip          not present              not present
+117 r_tarsal_distal_phalanx_2_tip          not present              not present
+118 r_tarsal_distal_phalanx_3_tip          not present              not present
+119 r_tarsal_distal_phalanx_4_tip          not present              not present
+120 r_tarsal_distal_phalanx_5_tip          not present              not present
 
 * added in V1 user code, not in spec and not for use in table
