@@ -9,28 +9,28 @@
 7   Right Tragion                     #C5  r_tragion               5.20 tragion
 8   Right Gonion                      #C6  r_gonion                not present
 9   Supramenton                       #C4  supramenton             not present    
-10  Cervicale (spine 1)               #c24 cervicale               5.3 cervicale
+10  Cervicale (spine 1)               #C24 cervicale               5.3 cervicale
 
 11  Adam's Apple                           not present             not present
 12  Suprasternale                     #C11 suprasternale           not present 
 13  Substernale                       #C15 substernale             not present 
 14  Left Clavicale                    #C12 l_clavicale             not present
 15  Left Acromion                     #C41 l_acromion              5.2 acromion
-16  Left Axilla Proximal              #C42 r_axilla_ant            not present
-17  Left Axilla Distal                #C44 r_axilla_post           not present
+16  Left Axilla Proximal              #C42 r_axilla_ant ?          not present
+17  Left Axilla Distal                #C44 r_axilla_post?          not present
 18  Left Posterior Axillary Folds
 19  Right Clavicale                   #C10 r_clavicale             not present
 20  Right Acromion                    #C29 r_acromion              5.2 acromion
 
-21  Right Axilla Proximal             #C30 r_axilla_ant            not present
-22  Right Axilla Distal               #C32 r_axilla_post           not present
+21  Right Axilla Proximal             #C30 r_axilla_ant ?          not present
+22  Right Axilla Distal               #C32 r_axilla_post?          not present
 23  Right Posterior Axillary folds
 24  Spine I (middle back)   
 25  Spine II (lower back)   
 26  Preferred Waist Anterior               not present             not present
 27  Preferred Waist Posterior         #C28 waist_preferred_post    not present     
 28  Left 10th Rib                     #C18 l_rib10                 5.8 lowest point of the rib cage
-29  Left Thelion                      #C14 lthelion/bustpoint      5.18 thelion
+29  Left Thelion                      #C14 l_thelion/bustpoint     5.18 thelion
 30  Right 10th Rib                    #C16 r_rib10                 5.8 lowest point of the rib cage
 
 31  Right Thelion                     #C13 r_thelion/bustpoint     5.18 thelion
@@ -41,38 +41,38 @@
 36  Right iliocristale                #C20 r_iliocristale          6.1.6 Iliac spine height
 37  Right PSIS                             not present             not present 
 38  Crotch                            #C73 crotch                  5.4 crotch level    
-39  Left Femoral Medial Epicondyles
-40  Left Femoral Lateral Epicondyles
+39  Left Femoral Medial Epicondyles   #C65 l_femoral_medial_epicn
+40  Left Femoral Lateral Epicondyles  #C64 l_femoral_lateral_epicn
 
 41  Left Suprapatella                      not present              5.17 suprapatella
 42  Left Trochanterion                #C23 l_trochanterion          not present
-43  Right Femoral Medial Epicondyles
-44  Right Femoral Lateral Epicondyles
+43  Right Femoral Medial Epicondyles  #C55 r_femoral_medial_epicn
+44  Right Femoral Lateral Epicondyles #C54 r_femoral_lateral_epicn
 45  Right Suprapatella                     not present              5.17 suprapatella
 46  Right Trochanterion               #C21 r_trochanterion          not present
-47  Left Tibiale             like     #C65 l_femoral_medial_epicn   5.19 tibiale
+47  Left Tibiale                                                    5.19 tibiale
 48  Left Medial Malleolus             #C68 l_medial_malleolus       not present
 49  Left Lateral Malleolus            #C67 l_lateral_malleolus      not present
 50  Left Sphyrion                     #C69 l_sphyrion               not present
 
-51  Right Tibiale            like     #C55 r_femoral_medial_epicn   5.19 tibiale
+51  Right Tibiale                                                   5.19 tibiale
 52  Right Medial Malleolus            #C58 r_medial_malleolus       not present 
 53  Right Lateral Malleolus           #C57 r_lateral_malleolus      not present
 54  Right Sphyrion                    #C59 r_sphyrion               not present
-55  Left Metatarsal-Phalangeal I
-56  Left Metatarsal-Phalangeal V
+55  Left Metatarsal-Phalangeal I      #C66 l_metatarsal_pha1
+56  Left Metatarsal-Phalangeal V      #C70 l_metatarsal_pha5
 57  Left Digit II                     #C50 l_dactylion              not present
-58  Left Posterior Calcaneous
-59  Right Metatarsal-Phalangeal I
-60  Right Metatarsal-Phalangeal V
+58  Left Posterior Calcaneous         #C71 l_calcaneous_post
+59  Right Metatarsal-Phalangeal I     #C60 r_metatarsal_pha1
+60  Right Metatarsal-Phalangeal V     #C56 r_metatarsal_pha5
 
 61  Right Digit II                    #C38 r_dactylion              not present
-62  Right Posterior Calcaneous
-63  Left Humeral Medial Epicondyle
-64  Left Humeral Lateral Epicondyle    
+62  Right Posterior Calcaneous        #C61 r_calcaneous_post
+63  Left Humeral Medial Epicondyle    #C46 l_humeral_lateral_epicn
+64  Left Humeral Lateral Epicondyle   #C47 l_humeral_medial_epicn
 65  Left Olecranon                    #C45 l_olecranon              5.12 olecranon
-66  Right Humeral Medial Epicondyle
-67  Right Humeral Lateral Epicondyle
+66  Right Humeral Medial Epicondyle   #C54 r_femoral_lateral_epicn
+67  Right Humeral Lateral Epicondyle  #C55 r_femoral_medial_epicn
 68  Right Olecranon                   #C33 r_olecranon              5.12 olecranon
 69  Left Radiale                      #C48 l_radiale                6.2.9 Elbow-to-elbow
 70  Left Ulnar Styloid                #C51 l_ulnar_styloid          5.21 ulnar stylion
@@ -81,11 +81,11 @@
 72  Right Radiale                     #C36 r_radiale                6.2.9 Elbow-to-elbow
 73  Right Ulnar Styloid               #C39 r_ulnar_styloid          5.21 ulnar stylion
 74  Right Radial Styloid              #C31 r_radial_styloid         5.16 stylion 
-75  Left MP Joint II            
-76  Left MP Joint V            
+75  Left MP Joint II                  #C37 r_metacarpal_pha2 (MP=metacarpophalangeal? TODO use full names?)
+76  Left MP Joint V                   #C40 r_metacarpal_pha5
 77  Left Metacarpale III        
-78  Right MP Joint II            
-79  Right MP Joint V            
+78  Right MP Joint II                 #C49 l_metacarpal_pha2
+79  Right MP Joint V                  #C52 l_metacarpal_pha5
 80  Right Metacarpale III
 
 --- CAESAR includes 80 points; following new points are from 7250 ------------------
