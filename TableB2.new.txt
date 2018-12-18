@@ -16,8 +16,8 @@
 13  Substernale                       #C15 substernale             not present 
 14  Left Clavicale                    #C12 l_clavicale             not present
 15  Left Acromion                     #C41 l_acromion              5.2 acromion
-16  Left Axilla Proximal              #C42 r_axilla_ant ?          not present
-17  Left Axilla Distal                #C44 r_axilla_post?          not present
+16  Left Axilla Proximal              #C42 l_axilla_ant ?          not present
+17  Left Axilla Distal                #C44 l_axilla_post?          not present
 18  Left Posterior Axillary Folds
 19  Right Clavicale                   #C10 r_clavicale             not present
 20  Right Acromion                    #C29 r_acromion              5.2 acromion
@@ -81,7 +81,7 @@
 72  Right Radiale                     #C36 r_radiale                6.2.9 Elbow-to-elbow
 73  Right Ulnar Styloid               #C39 r_ulnar_styloid          5.21 ulnar stylion
 74  Right Radial Styloid              #C31 r_radial_styloid         5.16 stylion 
-75  Left MP Joint II                  #C37 r_metacarpal_pha2 (MP=metacarpophalangeal? TODO use full names?)
+75  Left MP Joint II                  #C37 r_metacarpal_pha2 (MP=metacarpophalangeal? TODO use full names)
 76  Left MP Joint V                   #C40 r_metacarpal_pha5
 77  Left Metacarpale III        
 78  Right MP Joint II                 #C49 l_metacarpal_pha2
