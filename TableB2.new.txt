@@ -91,7 +91,7 @@
                                                                           
 ---                                                                       --- CAESAR includes 80 points; following new points are from 7250 ------------------
 
-81                                                                        
+81   nuchale                                                              81  not present                       #C9  Nuchale                  5.11 Nuchale
 82   r_neck_base                                                          82  r_neck_base                       #C74 r_neck_base              not present
 83   l_neck_base                                                          83  l_neck_base                       #C75 l_neck_base              not present
 84   navel                                                                84  navel                             #C76 navel                    not present
@@ -100,18 +100,16 @@
 87   menton                                                               87  menton                                 not present              5.9 menton
 88   mesosternale                                                         88  mesosternale                           not present              5.10 mesosternale
 89   opisthocranion                                                       89  opisthocranion                         not present              5.14 opisthocranion
-90                                                                        90  l_suprapatella                         not present              5.17 suprapatella
-                                                                          
-91                                                                        91  r_suprapatella                         not present              5.17 suprapatella
+90                                                                        90  l_knee_crease                     #C63 l_knee_crease            various measurements
+91                                                                        91  r_knee_crease                     #C53 r_knee_crease            various measurements
+
 92                                                                        92  rear_center_at_midsagittal_plane       not present              6.1.9 Chest depth 
 93                                                                        93  buttocks_standing_wall_contact_point   not present              6.1.10 Body depth 
 94                                                                        94  l_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
 95                                                                        95  r_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
 96                                                                        96  l_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
 97                                                                        97  r_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
-98                                                                        98  not present                       #C9  Nuchale                  5.11 Nuchale
-99                                                                        99  l_knee_crease                     #C63 l_knee_crease            various measurements
-100                                                                       100 r_knee_crease                     #C53 r_knee_crease            various measurements
+
                                                                           
 ---                                                                       --- HAnim unique names ------------------- (*old HAnim names in models) -------
                                                                           
