@@ -20,12 +20,12 @@
 16   l_axilla_proximal                                                    16  Left Axilla Proximal              #C44 l_axilla_post           not present
 17   l_axilla_distal                                                      17  Left Axilla Distal                #C42 l_axilla_ant            not present
 18   l_axilla_posterior_folds                                             18  Left Posterior Axillary Folds
-19                                                                        19  Right Clavicale                   #C10 r_clavicale             not present
-20                                                                        20  Right Acromion                    #C29 r_acromion              5.2 acromion
+19   r_clavicale                                                          19  Right Clavicale                   #C10 r_clavicale             not present
+20   r_acromion                                                           20  Right Acromion                    #C29 r_acromion              5.2 acromion
                                                                           
-21                                                                        21  Right Axilla Proximal             #C30 r_axilla_ant ?          not present
-22                                                                        22  Right Axilla Distal               #C32 r_axilla_post?          not present
-23                                                                        23  Right Posterior Axillary folds
+21   r_axilla_proximal                                                    21  Right Axilla Proximal             #C32 r_axilla_post?          not present
+22   r_axilla_distal                                                      22  Right Axilla Distal               #C30 r_axilla_ant ?          not present
+23   r_axilla_posterior_folds                                             23  Right Posterior Axillary folds
 24                                                                        24  Spine I (middle back)   
 25                                                                        25  Spine II (lower back)   
 26                                                                        26  Preferred Waist Anterior               not present             not present
