@@ -82,23 +82,24 @@
 72   r_radiale                                                            72  Right Radiale                     #C36 r_radiale                6.2.9 Elbow-to-elbow
 73   r_ulnar_styloid                                                      73  Right Ulnar Styloid               #C39 r_ulnar_styloid          5.21 ulnar stylion
 74   r_radial_styloid                                                     74  Right Radial Styloid              #C31 r_radial_styloid         5.16 stylion 
-75                                                                        75  Left MP Joint II                  #C37 r_metacarpal_pha2 (MP=metacarpophalangeal? TODO use full names)
-76                                                                        76  Left MP Joint V                   #C40 r_metacarpal_pha5
-77                                                                        77  Left Metacarpale III        
-78                                                                        78  Right MP Joint II                 #C49 l_metacarpal_pha2
-79                                                                        79  Right MP Joint V                  #C52 l_metacarpal_pha5
-80                                                                        80  Right Metacarpale III
+75   r_metacarpal_phalanx_2                                               75  Left MP Joint II                  #C37 r_metacarpal_pha2 (MP=metacarpophalangeal)
+76   r_metacarpal_phalanx_5                                               76  Left MP Joint V                   #C40 r_metacarpal_pha5
+77   l_metacarpal_3                                                       77  Left Metacarpale III        
+78   l_metacarpal_phalanx_2                                               78  Right MP Joint II                 #C49 l_metacarpal_pha2
+79   l_metacarpal_phalanx_5                                               79  Right MP Joint V                  #C52 l_metacarpal_pha5
+80   r_metacarpal_3                                                       80  Right Metacarpale III
                                                                           
 ---                                                                       --- CAESAR includes 80 points; following new points are from 7250 ------------------
-                                                                          
-82                                                                        82  r_neck_base                       #C74 r_neck_base              not present
-83                                                                        83  l_neck_base                       #C74 r_neck_base              not present
-84                                                                        84  navel                             #C76 navel                    not present
-85                                                                        85  l_ectocanthus                          not present              5.5 ectocanthus
-86                                                                        86  r_ectocanthus                          not present              5.5 ectocanthus
-87                                                                        87  menton                                 not present              5.9 menton
-88                                                                        88  mesosternale                           not present              5.10 mesosternale
-89                                                                        89  opisthocranion                         not present              5.14 opisthocranion
+
+81                                                                        
+82   r_neck_base                                                          82  r_neck_base                       #C74 r_neck_base              not present
+83   l_neck_base                                                          83  l_neck_base                       #C75 l_neck_base              not present
+84   navel                                                                84  navel                             #C76 navel                    not present
+85   l_ectocanthus                                                        85  l_ectocanthus                          not present              5.5 ectocanthus
+86   r_ectocanthus                                                        86  r_ectocanthus                          not present              5.5 ectocanthus
+87   menton                                                               87  menton                                 not present              5.9 menton
+88   mesosternale                                                         88  mesosternale                           not present              5.10 mesosternale
+89   opisthocranion                                                       89  opisthocranion                         not present              5.14 opisthocranion
 90                                                                        90  l_suprapatella                         not present              5.17 suprapatella
                                                                           
 91                                                                        91  r_suprapatella                         not present              5.17 suprapatella
