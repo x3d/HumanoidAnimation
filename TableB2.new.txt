@@ -100,8 +100,8 @@
 87   menton                                                               87  menton                                 not present              5.9 menton
 88   mesosternale                                                         88  mesosternale                           not present              5.10 mesosternale
 89   opisthocranion                                                       89  opisthocranion                         not present              5.14 opisthocranion
-90                                                                        90  l_knee_crease                     #C63 l_knee_crease            various measurements
-91                                                                        91  r_knee_crease                     #C53 r_knee_crease            various measurements
+90   l_knee_crease                                                        90  l_knee_crease                     #C63 l_knee_crease            various measurements
+91   r_knee_crease                                                        91  r_knee_crease                     #C53 r_knee_crease            various measurements
 
 92                                                                        92  rear_center_at_midsagittal_plane       not present              6.1.9 Chest depth 
 93                                                                        93  buttocks_standing_wall_contact_point   not present              6.1.10 Body depth 
