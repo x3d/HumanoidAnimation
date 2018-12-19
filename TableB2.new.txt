@@ -30,9 +30,9 @@
 25   spine_2_lower_back                                                   25  Spine II (lower back)   
 26   waist_preferred_anterior                                             26  Preferred Waist Anterior               not present             not present
 27   waist_preferred_posterior                                            27  Preferred Waist Posterior         #C28 waist_preferred_post    not present     
-28   l_rib10                                                              28  Left 10th Rib                     #C18 l_rib10                 5.8 lowest point of the rib cage
+28   l_rib_10                                                             28  Left 10th Rib                     #C18 l_rib10                 5.8 lowest point of the rib cage
 29   l_thelion                                                            29  Left Thelion                      #C14 l_thelion/bustpoint     5.18 thelion
-30   r_rib10                                                              30  Right 10th Rib                    #C16 r_rib10                 5.8 lowest point of the rib cage
+30   r_rib_10                                                             30  Right 10th Rib                    #C16 r_rib10                 5.8 lowest point of the rib cage
                                                                           
 31   r_thelion                                                            31  Right Thelion                     #C13 r_thelion/bustpoint     5.18 thelion
 32   l_asis                                                               32  Left ASIS                         #C19 l_asis                  5.7 iliospinale anterius
@@ -56,19 +56,19 @@
 49   l_lateral_malleolus                                                  49  Left Lateral Malleolus            #C67 l_lateral_malleolus      not present
 50   l_sphyrion                                                           50  Left Sphyrion                     #C69 l_sphyrion               not present
                                                                           
-51                                                                        51  Right Tibiale                                                   5.19 tibiale
-52                                                                        52  Right Medial Malleolus            #C58 r_medial_malleolus       not present 
-53                                                                        53  Right Lateral Malleolus           #C57 r_lateral_malleolus      not present
-54                                                                        54  Right Sphyrion                    #C59 r_sphyrion               not present
-55                                                                        55  Left Metatarsal-Phalangeal I      #C66 l_metatarsal_pha1
-56                                                                        56  Left Metatarsal-Phalangeal V      #C70 l_metatarsal_pha5
-57                                                                        57  Left Digit II                     #C50 l_dactylion              not present
-58                                                                        58  Left Posterior Calcaneous         #C71 l_calcaneous_post
-59                                                                        59  Right Metatarsal-Phalangeal I     #C60 r_metatarsal_pha1
-60                                                                        60  Right Metatarsal-Phalangeal V     #C56 r_metatarsal_pha5
+51   r_tibiale                                                            51  Right Tibiale                                                   5.19 tibiale
+52   r_medial_malleolus                                                   52  Right Medial Malleolus            #C58 r_medial_malleolus       not present 
+53   r_lateral_malleolus                                                  53  Right Lateral Malleolus           #C57 r_lateral_malleolus      not present
+54   r_sphyrion                                                           54  Right Sphyrion                    #C59 r_sphyrion               not present
+55   l_metatarsal_phalanx_1                                               55  Left Metatarsal-Phalangeal I      #C66 l_metatarsal_pha1
+56   l_metatarsal_phalanx_5                                               56  Left Metatarsal-Phalangeal V      #C70 l_metatarsal_pha5
+57   l_dactylion                                                          57  Left Digit II                     #C50 l_dactylion              not present
+58   l_calcaneous_posterior                                               58  Left Posterior Calcaneous         #C71 l_calcaneous_post
+59   r_metatarsal_phalanx_1                                               59  Right Metatarsal-Phalangeal I     #C60 r_metatarsal_pha1
+60   r_metatarsal_phalanx_5                                               60  Right Metatarsal-Phalangeal V     #C56 r_metatarsal_pha5
                                                                           
-61                                                                        61  Right Digit II                    #C38 r_dactylion              not present
-62                                                                        62  Right Posterior Calcaneous        #C61 r_calcaneous_post
+61   r_dactylion                                                          61  Right Digit II                    #C38 r_dactylion              not present
+62   r_calcaneous_posterior                                               62  Right Posterior Calcaneous        #C61 r_calcaneous_post
 63                                                                        63  Left Humeral Medial Epicondyle    #C46 l_humeral_lateral_epicn
 64                                                                        64  Left Humeral Lateral Epicondyle   #C47 l_humeral_medial_epicn
 65                                                                        65  Left Olecranon                    #C45 l_olecranon              5.12 olecranon
