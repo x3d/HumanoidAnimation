@@ -103,14 +103,15 @@
 90   l_knee_crease                                                        90  l_knee_crease                     #C63 l_knee_crease            various measurements
 91   r_knee_crease                                                        91  r_knee_crease                     #C53 r_knee_crease            various measurements
 
-92                                                                        92  rear_center_at_midsagittal_plane       not present              6.1.9 Chest depth 
-93                                                                        93  buttocks_standing_wall_contact_point   not present              6.1.10 Body depth 
-94                                                                        94  l_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
-95                                                                        95  r_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
-96                                                                        96  l_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
-97                                                                        97  r_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
+92   rear_center_midsagittal_plane                                        92  rear_center_at_midsagittal_plane       not present              6.1.9 Chest depth 
+93   buttocks_standing_wall_contact_point                                 93  buttocks_standing_wall_contact_point   not present              6.1.10 Body depth 
+94   l_chest_midsagittal_plane                                            94  l_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
+95   r_chest_midsagittal_plane                                            95  r_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
+96   l_bideltoid                                                          96  l_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
+97   r_bideltoid                                                          97  r_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
 
-                                                                          
+98-100 reserved
+
 ---                                                                       --- HAnim unique names ------------------- (*old HAnim names in models) -------
                                                                           
 101                                                                       101 l_carpal_distal_phalanx_1_tip          (l_thumb_distal_tip*)    not present
