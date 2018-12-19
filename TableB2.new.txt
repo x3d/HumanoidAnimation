@@ -1,4 +1,4 @@
-#    HAnim 2.0 feature point name                                         #V2 CAESAR 2018 Landmark              #V1  CAESAR 2013 Landmark    ISO 7250-1 Landmark
+#    HAnim 2.0 feature point name                                         #V2 CAESAR 2018 Landmark              #V1  CAESAR 2003 Landmark    ISO 7250-1 Landmark
                                                                           
 0    skull_tip                                                            0   skull_tip                              not present*            5.22 vertex (top of head)
 1    glabella                                                             1   Glabella                               not present             5.6  glabella            
