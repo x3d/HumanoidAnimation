@@ -35,26 +35,26 @@
 30   r_rib10                                                              30  Right 10th Rib                    #C16 r_rib10                 5.8 lowest point of the rib cage
                                                                           
 31   r_thelion                                                            31  Right Thelion                     #C13 r_thelion/bustpoint     5.18 thelion
-32                                                                        32  Left ASIS                         #C19 l_asis                  5.7 iliospinale anterius
-33                                                                        33  Left iliocristale                 #C22 l_iliocristale          6.1.6 Iliac spine height
-34                                                                        34  Left PSIS                         #C27 l_psis                  not present
-35                                                                        35  Right ASIS                        #C17 r_asis                  5.7 iliospinale anterius
-36                                                                        36  Right iliocristale                #C20 r_iliocristale          6.1.6 Iliac spine height
-37                                                                        37  Right PSIS                        #C26 r_psis                  not present 
-38                                                                        38  Crotch                            #C73 crotch                  5.4 crotch level    
-39                                                                        39  Left Femoral Medial Epicondyles   #C65 l_femoral_medial_epicn
-40                                                                        40  Left Femoral Lateral Epicondyles  #C64 l_femoral_lateral_epicn
+32   l_asis                                                               32  Left ASIS                         #C19 l_asis                  5.7 iliospinale anterius
+33   l_iliocristale                                                       33  Left iliocristale                 #C22 l_iliocristale          6.1.6 Iliac spine height
+34   l_psis                                                               34  Left PSIS                         #C27 l_psis                  not present
+35   r_asis                                                               35  Right ASIS                        #C17 r_asis                  5.7 iliospinale anterius
+36   r_iliocristale                                                       36  Right iliocristale                #C20 r_iliocristale          6.1.6 Iliac spine height
+37   r_psis                                                               37  Right PSIS                        #C26 r_psis                  not present 
+38   crotch                                                               38  Crotch                            #C73 crotch                  5.4 crotch level    
+39   l_femoral_medial_epicondyles                                         39  Left Femoral Medial Epicondyles   #C65 l_femoral_medial_epicn
+40   l_femoral_lateral_epicondyles                                        40  Left Femoral Lateral Epicondyles  #C64 l_femoral_lateral_epicn
                                                                           
-41                                                                        41  Left Suprapatella                      not present              5.17 suprapatella
-42                                                                        42  Left Trochanterion                #C23 l_trochanterion          not present
-43                                                                        43  Right Femoral Medial Epicondyles  #C55 r_femoral_medial_epicn
-44                                                                        44  Right Femoral Lateral Epicondyles #C54 r_femoral_lateral_epicn
-45                                                                        45  Right Suprapatella                     not present              5.17 suprapatella
-46                                                                        46  Right Trochanterion               #C21 r_trochanterion          not present
-47                                                                        47  Left Tibiale                                                    5.19 tibiale
-48                                                                        48  Left Medial Malleolus             #C68 l_medial_malleolus       not present
-49                                                                        49  Left Lateral Malleolus            #C67 l_lateral_malleolus      not present
-50                                                                        50  Left Sphyrion                     #C69 l_sphyrion               not present
+41   l_suprapatella                                                       41  Left Suprapatella                      not present              5.17 suprapatella
+42   l_trochanterion                                                      42  Left Trochanterion                #C23 l_trochanterion          not present
+43   r_femoral_medial_epicondyles                                         43  Right Femoral Medial Epicondyles  #C55 r_femoral_medial_epicn
+44   r_femoral_lateral_epicondyles                                        44  Right Femoral Lateral Epicondyles #C54 r_femoral_lateral_epicn
+45   r_suprapatella                                                       45  Right Suprapatella                     not present              5.17 suprapatella
+46   r_trochanterion                                                      46  Right Trochanterion               #C21 r_trochanterion          not present
+47   l_tibiale                                                            47  Left Tibiale                                                    5.19 tibiale
+48   l_medial_malleolus                                                   48  Left Medial Malleolus             #C68 l_medial_malleolus       not present
+49   l_lateral_malleolus                                                  49  Left Lateral Malleolus            #C67 l_lateral_malleolus      not present
+50   l_sphyrion                                                           50  Left Sphyrion                     #C69 l_sphyrion               not present
                                                                           
 51                                                                        51  Right Tibiale                                                   5.19 tibiale
 52                                                                        52  Right Medial Malleolus            #C58 r_medial_malleolus       not present 
