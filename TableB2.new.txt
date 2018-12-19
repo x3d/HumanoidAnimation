@@ -12,14 +12,14 @@
 9    supramenton                                                          9   Supramenton                       #C4  supramenton             not present    
 10   cervicale                                                            10  Cervicale (spine 1)               #C24 cervicale               5.3 cervicale
                                                                           
-11                                                                        11  Adam's Apple                           not present             not present
-12                                                                        12  Suprasternale                     #C11 suprasternale           not present 
-13                                                                        13  Substernale                       #C15 substernale             not present 
-14                                                                        14  Left Clavicale                    #C12 l_clavicale             not present
-15                                                                        15  Left Acromion                     #C41 l_acromion              5.2 acromion
-16                                                                        16  Left Axilla Proximal              #C42 l_axilla_ant ?          not present
-17                                                                        17  Left Axilla Distal                #C44 l_axilla_post?          not present
-18                                                                        18  Left Posterior Axillary Folds
+11   adams_apple                                                          11  Adam's Apple                           not present             not present
+12   suprasternale                                                        12  Suprasternale                     #C11 suprasternale           not present 
+13   substernale                                                          13  Substernale                       #C15 substernale             not present 
+14   l_clavicale                                                          14  Left Clavicale                    #C12 l_clavicale             not present
+15   l_acromion                                                           15  Left Acromion                     #C41 l_acromion              5.2 acromion
+16   l_axilla_proximal                                                    16  Left Axilla Proximal              #C44 l_axilla_post           not present
+17   l_axilla_distal                                                      17  Left Axilla Distal                #C42 l_axilla_ant            not present
+18   l_axilla_posterior_folds                                             18  Left Posterior Axillary Folds
 19                                                                        19  Right Clavicale                   #C10 r_clavicale             not present
 20                                                                        20  Right Acromion                    #C29 r_acromion              5.2 acromion
                                                                           
