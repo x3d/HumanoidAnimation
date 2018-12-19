@@ -1,5 +1,6 @@
 #    HAnim 2.0 feature point name                 #V2 CAESAR 2018 Landmark              #V1  CAESAR 2003 Landmark    ISO 7250-1 Landmark
-                                                  
+                                                                                             HAnim 1.0, X3D v3.3
+
 0    skull_tip                                    0   skull_tip                              not present*            5.22 vertex (top of head)
 1    glabella                                     1   Glabella                               not present             5.6  glabella            
 2    sellion                                      2   Sellion                           #C1  sellion                 5.15 sellion
@@ -113,7 +114,7 @@
 98-100 reserved
 
 ---                                               --- HAnim unique names ------------------- (*old HAnim names in models) -------
-                                                                          
+
 101  l_carpal_distal_phalanx_1_tip                101 l_carpal_distal_phalanx_1_tip          (l_thumb_distal_tip*)    not present
 102  l_carpal_distal_phalanx_2_tip                102 l_carpal_distal_phalanx_2_tip          (l_index_distal_tip*)    not present
 103  l_carpal_distal_phalanx_3_tip                103 l_carpal_distal_phalanx_3_tip          (l_middle_distal_tip*)   not present
