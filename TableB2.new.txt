@@ -69,19 +69,19 @@
                                                                           
 61   r_dactylion                                                          61  Right Digit II                    #C38 r_dactylion              not present
 62   r_calcaneous_posterior                                               62  Right Posterior Calcaneous        #C61 r_calcaneous_post
-63                                                                        63  Left Humeral Medial Epicondyle    #C46 l_humeral_lateral_epicn
-64                                                                        64  Left Humeral Lateral Epicondyle   #C47 l_humeral_medial_epicn
-65                                                                        65  Left Olecranon                    #C45 l_olecranon              5.12 olecranon
-66                                                                        66  Right Humeral Medial Epicondyle   #C34 r_femoral_lateral_epicn
-67                                                                        67  Right Humeral Lateral Epicondyle  #C35 r_femoral_medial_epicn
-68                                                                        68  Right Olecranon                   #C33 r_olecranon              5.12 olecranon
-69                                                                        69  Left Radiale                      #C48 l_radiale                6.2.9 Elbow-to-elbow
-70                                                                        70  Left Ulnar Styloid                #C51 l_ulnar_styloid          5.21 ulnar stylion
+63   l_humeral_lateral_epicondyles                                        63  Left Humeral Medial Epicondyle    #C46 l_humeral_lateral_epicn
+64   l_humeral_medial_epicondyles                                         64  Left Humeral Lateral Epicondyle   #C47 l_humeral_medial_epicn
+65   l_olecranon                                                          65  Left Olecranon                    #C45 l_olecranon              5.12 olecranon
+66   r_humeral_lateral_epicondyles                                        66  Right Humeral Medial Epicondyle   #C34 r_femoral_lateral_epicn
+67   r_humeral_medial_epicondyles                                         67  Right Humeral Lateral Epicondyle  #C35 r_femoral_medial_epicn
+68   r_olecranon                                                          68  Right Olecranon                   #C33 r_olecranon              5.12 olecranon
+69   l_radiale                                                            69  Left Radiale                      #C48 l_radiale                6.2.9 Elbow-to-elbow
+70   l_ulnar_styloid                                                      70  Left Ulnar Styloid                #C51 l_ulnar_styloid          5.21 ulnar stylion
                                                                           
-71                                                                        71  Left Radial Styloid               #C43 l_radial_styloid         5.16 stylion 
-72                                                                        72  Right Radiale                     #C36 r_radiale                6.2.9 Elbow-to-elbow
-73                                                                        73  Right Ulnar Styloid               #C39 r_ulnar_styloid          5.21 ulnar stylion
-74                                                                        74  Right Radial Styloid              #C31 r_radial_styloid         5.16 stylion 
+71   l_radial_styloid                                                     71  Left Radial Styloid               #C43 l_radial_styloid         5.16 stylion 
+72   r_radiale                                                            72  Right Radiale                     #C36 r_radiale                6.2.9 Elbow-to-elbow
+73   r_ulnar_styloid                                                      73  Right Ulnar Styloid               #C39 r_ulnar_styloid          5.21 ulnar stylion
+74   r_radial_styloid                                                     74  Right Radial Styloid              #C31 r_radial_styloid         5.16 stylion 
 75                                                                        75  Left MP Joint II                  #C37 r_metacarpal_pha2 (MP=metacarpophalangeal? TODO use full names)
 76                                                                        76  Left MP Joint V                   #C40 r_metacarpal_pha5
 77                                                                        77  Left Metacarpale III        
