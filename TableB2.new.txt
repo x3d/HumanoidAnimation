@@ -1,138 +1,138 @@
-#    HAnim 2.0 feature point name                                         #V2 CAESAR 2018 Landmark              #V1  CAESAR 2003 Landmark    ISO 7250-1 Landmark
-                                                                          
-0    skull_tip                                                            0   skull_tip                              not present*            5.22 vertex (top of head)
-1    glabella                                                             1   Glabella                               not present             5.6  glabella            
-2    sellion                                                              2   Sellion                           #C1  sellion                 5.15 sellion
-3    l_infraorbitale                                                      3   Left Infraorbitale                #C3  l_infraorbitale         not present 
-4    l_tragion                                                            4   Left Tragion                      #C7  l_tragion               5.20 tragion 
-5    l_gonion                                                             5   Left Gonion                       #C8  l_gonion                not present
-6    r_infraorbitale                                                      6   Right Infraorbitale               #C2  r_infraorbitale         5.13 orbitale
-7    r_tragion                                                            7   Right Tragion                     #C5  r_tragion               5.20 tragion
-8    r_gonion                                                             8   Right Gonion                      #C6  r_gonion                not present
-9    supramenton                                                          9   Supramenton                       #C4  supramenton             not present    
-10   cervicale                                                            10  Cervicale (spine 1)               #C24 cervicale               5.3 cervicale
-                                                                          
-11   adams_apple                                                          11  Adam's Apple                           not present             not present
-12   suprasternale                                                        12  Suprasternale                     #C11 suprasternale           not present 
-13   substernale                                                          13  Substernale                       #C15 substernale             not present 
-14   l_clavicale                                                          14  Left Clavicale                    #C12 l_clavicale             not present
-15   l_acromion                                                           15  Left Acromion                     #C41 l_acromion              5.2 acromion
-16   l_axilla_proximal                                                    16  Left Axilla Proximal              #C44 l_axilla_post           not present
-17   l_axilla_distal                                                      17  Left Axilla Distal                #C42 l_axilla_ant            not present
-18   l_axilla_posterior_folds                                             18  Left Posterior Axillary Folds
-19   r_clavicale                                                          19  Right Clavicale                   #C10 r_clavicale             not present
-20   r_acromion                                                           20  Right Acromion                    #C29 r_acromion              5.2 acromion
-                                                                          
-21   r_axilla_proximal                                                    21  Right Axilla Proximal             #C32 r_axilla_post?          not present
-22   r_axilla_distal                                                      22  Right Axilla Distal               #C30 r_axilla_ant ?          not present
-23   r_axilla_posterior_folds                                             23  Right Posterior Axillary folds
-24   spine_1_middle_back                                                  24  Spine I (middle back)   
-25   spine_2_lower_back                                                   25  Spine II (lower back)   
-26   waist_preferred_anterior                                             26  Preferred Waist Anterior               not present             not present
-27   waist_preferred_posterior                                            27  Preferred Waist Posterior         #C28 waist_preferred_post    not present     
-28   l_rib_10                                                             28  Left 10th Rib                     #C18 l_rib10                 5.8 lowest point of the rib cage
-29   l_thelion                                                            29  Left Thelion                      #C14 l_thelion/bustpoint     5.18 thelion
-30   r_rib_10                                                             30  Right 10th Rib                    #C16 r_rib10                 5.8 lowest point of the rib cage
-                                                                          
-31   r_thelion                                                            31  Right Thelion                     #C13 r_thelion/bustpoint     5.18 thelion
-32   l_asis                                                               32  Left ASIS                         #C19 l_asis                  5.7 iliospinale anterius
-33   l_iliocristale                                                       33  Left iliocristale                 #C22 l_iliocristale          6.1.6 Iliac spine height
-34   l_psis                                                               34  Left PSIS                         #C27 l_psis                  not present
-35   r_asis                                                               35  Right ASIS                        #C17 r_asis                  5.7 iliospinale anterius
-36   r_iliocristale                                                       36  Right iliocristale                #C20 r_iliocristale          6.1.6 Iliac spine height
-37   r_psis                                                               37  Right PSIS                        #C26 r_psis                  not present 
-38   crotch                                                               38  Crotch                            #C73 crotch                  5.4 crotch level    
-39   l_femoral_medial_epicondyles                                         39  Left Femoral Medial Epicondyles   #C65 l_femoral_medial_epicn
-40   l_femoral_lateral_epicondyles                                        40  Left Femoral Lateral Epicondyles  #C64 l_femoral_lateral_epicn
-                                                                          
-41   l_suprapatella                                                       41  Left Suprapatella                      not present              5.17 suprapatella
-42   l_trochanterion                                                      42  Left Trochanterion                #C23 l_trochanterion          not present
-43   r_femoral_medial_epicondyles                                         43  Right Femoral Medial Epicondyles  #C55 r_femoral_medial_epicn
-44   r_femoral_lateral_epicondyles                                        44  Right Femoral Lateral Epicondyles #C54 r_femoral_lateral_epicn
-45   r_suprapatella                                                       45  Right Suprapatella                     not present              5.17 suprapatella
-46   r_trochanterion                                                      46  Right Trochanterion               #C21 r_trochanterion          not present
-47   l_tibiale                                                            47  Left Tibiale                                                    5.19 tibiale
-48   l_medial_malleolus                                                   48  Left Medial Malleolus             #C68 l_medial_malleolus       not present
-49   l_lateral_malleolus                                                  49  Left Lateral Malleolus            #C67 l_lateral_malleolus      not present
-50   l_sphyrion                                                           50  Left Sphyrion                     #C69 l_sphyrion               not present
-                                                                          
-51   r_tibiale                                                            51  Right Tibiale                                                   5.19 tibiale
-52   r_medial_malleolus                                                   52  Right Medial Malleolus            #C58 r_medial_malleolus       not present 
-53   r_lateral_malleolus                                                  53  Right Lateral Malleolus           #C57 r_lateral_malleolus      not present
-54   r_sphyrion                                                           54  Right Sphyrion                    #C59 r_sphyrion               not present
-55   l_metatarsal_phalanx_1                                               55  Left Metatarsal-Phalangeal I      #C66 l_metatarsal_pha1
-56   l_metatarsal_phalanx_5                                               56  Left Metatarsal-Phalangeal V      #C70 l_metatarsal_pha5
-57   l_dactylion                                                          57  Left Digit II                     #C50 l_dactylion              not present
-58   l_calcaneous_posterior                                               58  Left Posterior Calcaneous         #C71 l_calcaneous_post
-59   r_metatarsal_phalanx_1                                               59  Right Metatarsal-Phalangeal I     #C60 r_metatarsal_pha1
-60   r_metatarsal_phalanx_5                                               60  Right Metatarsal-Phalangeal V     #C56 r_metatarsal_pha5
-                                                                          
-61   r_dactylion                                                          61  Right Digit II                    #C38 r_dactylion              not present
-62   r_calcaneous_posterior                                               62  Right Posterior Calcaneous        #C61 r_calcaneous_post
-63   l_humeral_lateral_epicondyles                                        63  Left Humeral Medial Epicondyle    #C46 l_humeral_lateral_epicn
-64   l_humeral_medial_epicondyles                                         64  Left Humeral Lateral Epicondyle   #C47 l_humeral_medial_epicn
-65   l_olecranon                                                          65  Left Olecranon                    #C45 l_olecranon              5.12 olecranon
-66   r_humeral_lateral_epicondyles                                        66  Right Humeral Medial Epicondyle   #C34 r_femoral_lateral_epicn
-67   r_humeral_medial_epicondyles                                         67  Right Humeral Lateral Epicondyle  #C35 r_femoral_medial_epicn
-68   r_olecranon                                                          68  Right Olecranon                   #C33 r_olecranon              5.12 olecranon
-69   l_radiale                                                            69  Left Radiale                      #C48 l_radiale                6.2.9 Elbow-to-elbow
-70   l_ulnar_styloid                                                      70  Left Ulnar Styloid                #C51 l_ulnar_styloid          5.21 ulnar stylion
-                                                                          
-71   l_radial_styloid                                                     71  Left Radial Styloid               #C43 l_radial_styloid         5.16 stylion 
-72   r_radiale                                                            72  Right Radiale                     #C36 r_radiale                6.2.9 Elbow-to-elbow
-73   r_ulnar_styloid                                                      73  Right Ulnar Styloid               #C39 r_ulnar_styloid          5.21 ulnar stylion
-74   r_radial_styloid                                                     74  Right Radial Styloid              #C31 r_radial_styloid         5.16 stylion 
-75   r_metacarpal_phalanx_2                                               75  Left MP Joint II                  #C37 r_metacarpal_pha2 (MP=metacarpophalangeal)
-76   r_metacarpal_phalanx_5                                               76  Left MP Joint V                   #C40 r_metacarpal_pha5
-77   l_metacarpal_3                                                       77  Left Metacarpale III        
-78   l_metacarpal_phalanx_2                                               78  Right MP Joint II                 #C49 l_metacarpal_pha2
-79   l_metacarpal_phalanx_5                                               79  Right MP Joint V                  #C52 l_metacarpal_pha5
-80   r_metacarpal_3                                                       80  Right Metacarpale III
-                                                                          
----                                                                       --- CAESAR includes 80 points; following new points are from 7250 ------------------
+#    HAnim 2.0 feature point name                 #V2 CAESAR 2018 Landmark              #V1  CAESAR 2003 Landmark    ISO 7250-1 Landmark
+                                                  
+0    skull_tip                                    0   skull_tip                              not present*            5.22 vertex (top of head)
+1    glabella                                     1   Glabella                               not present             5.6  glabella            
+2    sellion                                      2   Sellion                           #C1  sellion                 5.15 sellion
+3    l_infraorbitale                              3   Left Infraorbitale                #C3  l_infraorbitale         not present 
+4    l_tragion                                    4   Left Tragion                      #C7  l_tragion               5.20 tragion 
+5    l_gonion                                     5   Left Gonion                       #C8  l_gonion                not present
+6    r_infraorbitale                              6   Right Infraorbitale               #C2  r_infraorbitale         5.13 orbitale
+7    r_tragion                                    7   Right Tragion                     #C5  r_tragion               5.20 tragion
+8    r_gonion                                     8   Right Gonion                      #C6  r_gonion                not present
+9    supramenton                                  9   Supramenton                       #C4  supramenton             not present    
+10   cervicale                                    10  Cervicale (spine 1)               #C24 cervicale               5.3 cervicale
+                                                  
+11   adams_apple                                  11  Adam's Apple                           not present             not present
+12   suprasternale                                12  Suprasternale                     #C11 suprasternale           not present 
+13   substernale                                  13  Substernale                       #C15 substernale             not present 
+14   l_clavicale                                  14  Left Clavicale                    #C12 l_clavicale             not present
+15   l_acromion                                   15  Left Acromion                     #C41 l_acromion              5.2 acromion
+16   l_axilla_proximal                            16  Left Axilla Proximal              #C44 l_axilla_post           not present
+17   l_axilla_distal                              17  Left Axilla Distal                #C42 l_axilla_ant            not present
+18   l_axilla_posterior_folds                     18  Left Posterior Axillary Folds
+19   r_clavicale                                  19  Right Clavicale                   #C10 r_clavicale             not present
+20   r_acromion                                   20  Right Acromion                    #C29 r_acromion              5.2 acromion
+                                                  
+21   r_axilla_proximal                            21  Right Axilla Proximal             #C32 r_axilla_post?          not present
+22   r_axilla_distal                              22  Right Axilla Distal               #C30 r_axilla_ant ?          not present
+23   r_axilla_posterior_folds                     23  Right Posterior Axillary folds
+24   spine_1_middle_back                          24  Spine I (middle back)   
+25   spine_2_lower_back                           25  Spine II (lower back)   
+26   waist_preferred_anterior                     26  Preferred Waist Anterior               not present             not present
+27   waist_preferred_posterior                    27  Preferred Waist Posterior         #C28 waist_preferred_post    not present     
+28   l_rib_10                                     28  Left 10th Rib                     #C18 l_rib10                 5.8 lowest point of the rib cage
+29   l_thelion                                    29  Left Thelion                      #C14 l_thelion/bustpoint     5.18 thelion
+30   r_rib_10                                     30  Right 10th Rib                    #C16 r_rib10                 5.8 lowest point of the rib cage
+                                                  
+31   r_thelion                                    31  Right Thelion                     #C13 r_thelion/bustpoint     5.18 thelion
+32   l_asis                                       32  Left ASIS                         #C19 l_asis                  5.7 iliospinale anterius
+33   l_iliocristale                               33  Left iliocristale                 #C22 l_iliocristale          6.1.6 Iliac spine height
+34   l_psis                                       34  Left PSIS                         #C27 l_psis                  not present
+35   r_asis                                       35  Right ASIS                        #C17 r_asis                  5.7 iliospinale anterius
+36   r_iliocristale                               36  Right iliocristale                #C20 r_iliocristale          6.1.6 Iliac spine height
+37   r_psis                                       37  Right PSIS                        #C26 r_psis                  not present 
+38   crotch                                       38  Crotch                            #C73 crotch                  5.4 crotch level    
+39   l_femoral_medial_epicondyles                 39  Left Femoral Medial Epicondyles   #C65 l_femoral_medial_epicn
+40   l_femoral_lateral_epicondyles                40  Left Femoral Lateral Epicondyles  #C64 l_femoral_lateral_epicn
+                                                  
+41   l_suprapatella                               41  Left Suprapatella                      not present              5.17 suprapatella
+42   l_trochanterion                              42  Left Trochanterion                #C23 l_trochanterion          not present
+43   r_femoral_medial_epicondyles                 43  Right Femoral Medial Epicondyles  #C55 r_femoral_medial_epicn
+44   r_femoral_lateral_epicondyles                44  Right Femoral Lateral Epicondyles #C54 r_femoral_lateral_epicn
+45   r_suprapatella                               45  Right Suprapatella                     not present              5.17 suprapatella
+46   r_trochanterion                              46  Right Trochanterion               #C21 r_trochanterion          not present
+47   l_tibiale                                    47  Left Tibiale                                                    5.19 tibiale
+48   l_medial_malleolus                           48  Left Medial Malleolus             #C68 l_medial_malleolus       not present
+49   l_lateral_malleolus                          49  Left Lateral Malleolus            #C67 l_lateral_malleolus      not present
+50   l_sphyrion                                   50  Left Sphyrion                     #C69 l_sphyrion               not present
+                                                  
+51   r_tibiale                                    51  Right Tibiale                                                   5.19 tibiale
+52   r_medial_malleolus                           52  Right Medial Malleolus            #C58 r_medial_malleolus       not present 
+53   r_lateral_malleolus                          53  Right Lateral Malleolus           #C57 r_lateral_malleolus      not present
+54   r_sphyrion                                   54  Right Sphyrion                    #C59 r_sphyrion               not present
+55   l_metatarsal_phalanx_1                       55  Left Metatarsal-Phalangeal I      #C66 l_metatarsal_pha1
+56   l_metatarsal_phalanx_5                       56  Left Metatarsal-Phalangeal V      #C70 l_metatarsal_pha5
+57   l_dactylion                                  57  Left Digit II                     #C50 l_dactylion              not present
+58   l_calcaneous_posterior                       58  Left Posterior Calcaneous         #C71 l_calcaneous_post
+59   r_metatarsal_phalanx_1                       59  Right Metatarsal-Phalangeal I     #C60 r_metatarsal_pha1
+60   r_metatarsal_phalanx_5                       60  Right Metatarsal-Phalangeal V     #C56 r_metatarsal_pha5
+                                                  
+61   r_dactylion                                  61  Right Digit II                    #C38 r_dactylion              not present
+62   r_calcaneous_posterior                       62  Right Posterior Calcaneous        #C61 r_calcaneous_post
+63   l_humeral_lateral_epicondyles                63  Left Humeral Medial Epicondyle    #C46 l_humeral_lateral_epicn
+64   l_humeral_medial_epicondyles                 64  Left Humeral Lateral Epicondyle   #C47 l_humeral_medial_epicn
+65   l_olecranon                                  65  Left Olecranon                    #C45 l_olecranon              5.12 olecranon
+66   r_humeral_lateral_epicondyles                66  Right Humeral Medial Epicondyle   #C34 r_femoral_lateral_epicn
+67   r_humeral_medial_epicondyles                 67  Right Humeral Lateral Epicondyle  #C35 r_femoral_medial_epicn
+68   r_olecranon                                  68  Right Olecranon                   #C33 r_olecranon              5.12 olecranon
+69   l_radiale                                    69  Left Radiale                      #C48 l_radiale                6.2.9 Elbow-to-elbow
+70   l_ulnar_styloid                              70  Left Ulnar Styloid                #C51 l_ulnar_styloid          5.21 ulnar stylion
+                                                  
+71   l_radial_styloid                             71  Left Radial Styloid               #C43 l_radial_styloid         5.16 stylion 
+72   r_radiale                                    72  Right Radiale                     #C36 r_radiale                6.2.9 Elbow-to-elbow
+73   r_ulnar_styloid                              73  Right Ulnar Styloid               #C39 r_ulnar_styloid          5.21 ulnar stylion
+74   r_radial_styloid                             74  Right Radial Styloid              #C31 r_radial_styloid         5.16 stylion 
+75   r_metacarpal_phalanx_2                       75  Left MP Joint II                  #C37 r_metacarpal_pha2 (MP=metacarpophalangeal)
+76   r_metacarpal_phalanx_5                       76  Left MP Joint V                   #C40 r_metacarpal_pha5
+77   l_metacarpal_3                               77  Left Metacarpale III        
+78   l_metacarpal_phalanx_2                       78  Right MP Joint II                 #C49 l_metacarpal_pha2
+79   l_metacarpal_phalanx_5                       79  Right MP Joint V                  #C52 l_metacarpal_pha5
+80   r_metacarpal_3                               80  Right Metacarpale III
+                                                  
+---                                               --- CAESAR includes 80 points; following new points are from 7250 ------------------
 
-81   nuchale                                                              81  not present                       #C9  Nuchale                  5.11 Nuchale
-82   r_neck_base                                                          82  r_neck_base                       #C74 r_neck_base              not present
-83   l_neck_base                                                          83  l_neck_base                       #C75 l_neck_base              not present
-84   navel                                                                84  navel                             #C76 navel                    not present
-85   l_ectocanthus                                                        85  l_ectocanthus                          not present              5.5 ectocanthus
-86   r_ectocanthus                                                        86  r_ectocanthus                          not present              5.5 ectocanthus
-87   menton                                                               87  menton                                 not present              5.9 menton
-88   mesosternale                                                         88  mesosternale                           not present              5.10 mesosternale
-89   opisthocranion                                                       89  opisthocranion                         not present              5.14 opisthocranion
-90   l_knee_crease                                                        90  l_knee_crease                     #C63 l_knee_crease            various measurements
-91   r_knee_crease                                                        91  r_knee_crease                     #C53 r_knee_crease            various measurements
+81   nuchale                                      81  not present                       #C9  Nuchale                  5.11 Nuchale
+82   r_neck_base                                  82  r_neck_base                       #C74 r_neck_base              not present
+83   l_neck_base                                  83  l_neck_base                       #C75 l_neck_base              not present
+84   navel                                        84  navel                             #C76 navel                    not present
+85   l_ectocanthus                                85  l_ectocanthus                          not present              5.5 ectocanthus
+86   r_ectocanthus                                86  r_ectocanthus                          not present              5.5 ectocanthus
+87   menton                                       87  menton                                 not present              5.9 menton
+88   mesosternale                                 88  mesosternale                           not present              5.10 mesosternale
+89   opisthocranion                               89  opisthocranion                         not present              5.14 opisthocranion
+90   l_knee_crease                                90  l_knee_crease                     #C63 l_knee_crease            various measurements
+91   r_knee_crease                                91  r_knee_crease                     #C53 r_knee_crease            various measurements
 
-92   rear_center_midsagittal_plane                                        92  rear_center_at_midsagittal_plane       not present              6.1.9 Chest depth 
-93   buttocks_standing_wall_contact_point                                 93  buttocks_standing_wall_contact_point   not present              6.1.10 Body depth 
-94   l_chest_midsagittal_plane                                            94  l_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
-95   r_chest_midsagittal_plane                                            95  r_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
-96   l_bideltoid                                                          96  l_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
-97   r_bideltoid                                                          97  r_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
+92   rear_center_midsagittal_plane                92  rear_center_at_midsagittal_plane       not present              6.1.9 Chest depth 
+93   buttocks_standing_wall_contact_point         93  buttocks_standing_wall_contact_point   not present              6.1.10 Body depth 
+94   l_chest_midsagittal_plane                    94  l_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
+95   r_chest_midsagittal_plane                    95  r_chest_at_midsagittal_plane           not present              6.1.11 Chest breadth
+96   l_bideltoid                                  96  l_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
+97   r_bideltoid                                  97  r_bideltoid                            not present              6.2.8 Shoulder (bideltoid) breadth
 
 98-100 reserved
 
----                                                                       --- HAnim unique names ------------------- (*old HAnim names in models) -------
+---                                               --- HAnim unique names ------------------- (*old HAnim names in models) -------
                                                                           
-101                                                                       101 l_carpal_distal_phalanx_1_tip          (l_thumb_distal_tip*)    not present
-102                                                                       102 l_carpal_distal_phalanx_2_tip          (l_index_distal_tip*)    not present
-103                                                                       103 l_carpal_distal_phalanx_3_tip          (l_middle_distal_tip*)   not present
-104                                                                       104 l_carpal_distal_phalanx_4_tip          (l_ring_distal_tip*)     not present
-105                                                                       105 l_carpal_distal_phalanx_5_tip          (l_pinky_distal_tip*)    not present
-106                                                                       106 r_carpal_distal_phalanx_1_tip          (r_thumb_distal_tip*)    not present
-107                                                                       107 r_carpal_distal_phalanx_2_tip          (r_index_distal_tip*)    not present
-108                                                                       108 r_carpal_distal_phalanx_3_tip          (r_middle_distal_tip*)   not present
-109                                                                       109 r_carpal_distal_phalanx_4_tip          (r_ring_distal_tip*)     not present
-110                                                                       110 r_carpal_distal_phalanx_5_tip          (r_pinky_distal_tip*)    not present
-111                                                                       111 l_tarsal_distal_phalanx_1_tip          not present              not present
-112                                                                       112 l_tarsal_distal_phalanx_2_tip     #C72 l_digit2                 not present
-113                                                                       113 l_tarsal_distal_phalanx_3_tip          not present              not present
-114                                                                       114 l_tarsal_distal_phalanx_4_tip          not present              not present
-115                                                                       115 l_tarsal_distal_phalanx_5_tip          not present              not present
-116                                                                       116 r_tarsal_distal_phalanx_1_tip          not present              not present
-117                                                                       117 r_tarsal_distal_phalanx_2_tip     #C62 r_digit2                 not present
-118                                                                       118 r_tarsal_distal_phalanx_3_tip          not present              not present
-119                                                                       119 r_tarsal_distal_phalanx_4_tip          not present              not present
-120                                                                       120 r_tarsal_distal_phalanx_5_tip          not present              not present
+101  l_carpal_distal_phalanx_1_tip                101 l_carpal_distal_phalanx_1_tip          (l_thumb_distal_tip*)    not present
+102  l_carpal_distal_phalanx_2_tip                102 l_carpal_distal_phalanx_2_tip          (l_index_distal_tip*)    not present
+103  l_carpal_distal_phalanx_3_tip                103 l_carpal_distal_phalanx_3_tip          (l_middle_distal_tip*)   not present
+104  l_carpal_distal_phalanx_4_tip                104 l_carpal_distal_phalanx_4_tip          (l_ring_distal_tip*)     not present
+105  l_carpal_distal_phalanx_5_tip                105 l_carpal_distal_phalanx_5_tip          (l_pinky_distal_tip*)    not present
+106  r_carpal_distal_phalanx_1_tip                106 r_carpal_distal_phalanx_1_tip          (r_thumb_distal_tip*)    not present
+107  r_carpal_distal_phalanx_2_tip                107 r_carpal_distal_phalanx_2_tip          (r_index_distal_tip*)    not present
+108  r_carpal_distal_phalanx_3_tip                108 r_carpal_distal_phalanx_3_tip          (r_middle_distal_tip*)   not present
+109  r_carpal_distal_phalanx_4_tip                109 r_carpal_distal_phalanx_4_tip          (r_ring_distal_tip*)     not present
+110  r_carpal_distal_phalanx_5_tip                110 r_carpal_distal_phalanx_5_tip          (r_pinky_distal_tip*)    not present
+111  l_tarsal_distal_phalanx_1_tip                111 l_tarsal_distal_phalanx_1_tip          not present              not present
+112  l_tarsal_distal_phalanx_2_tip                112 l_tarsal_distal_phalanx_2_tip     #C72 l_digit2                 not present
+113  l_tarsal_distal_phalanx_3_tip                113 l_tarsal_distal_phalanx_3_tip          not present              not present
+114  l_tarsal_distal_phalanx_4_tip                114 l_tarsal_distal_phalanx_4_tip          not present              not present
+115  l_tarsal_distal_phalanx_5_tip                115 l_tarsal_distal_phalanx_5_tip          not present              not present
+116  r_tarsal_distal_phalanx_1_tip                116 r_tarsal_distal_phalanx_1_tip          not present              not present
+117  r_tarsal_distal_phalanx_2_tip                117 r_tarsal_distal_phalanx_2_tip     #C62 r_digit2                 not present
+118  r_tarsal_distal_phalanx_3_tip                118 r_tarsal_distal_phalanx_3_tip          not present              not present
+119  r_tarsal_distal_phalanx_4_tip                119 r_tarsal_distal_phalanx_4_tip          not present              not present
+120  r_tarsal_distal_phalanx_5_tip                120 r_tarsal_distal_phalanx_5_tip          not present              not present
                                                                        
-                                                                       * added in V1 user code, not in spec and not for use in table
+                                                  * added in V1 user code, not in spec and not for use in table
