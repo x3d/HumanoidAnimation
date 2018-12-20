@@ -26,7 +26,7 @@
                                                   
 21   r_axilla_proximal                            21  Right Axilla Proximal             #C32 r_axilla_post?          not present
 22   r_axilla_distal                              22  Right Axilla Distal               #C30 r_axilla_ant ?          not present
-23   r_axilla_posterior_folds                     23  Right Posterior Axillary folds
+23   r_axilla_posterior_folds                     23  Right Posterior Axillary Folds
 24   spine_1_middle_back                          24  Spine I (middle back)   
 25   spine_2_lower_back                           25  Spine II (lower back)   
 26   waist_preferred_anterior                     26  Preferred Waist Anterior               not present             not present
